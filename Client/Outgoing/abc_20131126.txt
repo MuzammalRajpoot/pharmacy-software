@@ -1,0 +1,7 @@
+
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('CNYE4R0uxKNO9Bt', 'GrpzzgpJSVumkTuMRQBZ', NULL, 'zqRVWaJNnf', '8000', 'Sorry at this moment. I will add it later.', '1', '', '2013-11-26', 1);
+INSERT INTO `outflow_W9f6oSF4fY` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('CNYE4R0uxKNO9Bt', 'GrpzzgpJSVumkTuMRQBZ', '1', '2013-11-26', '8000', 'Sorry at this moment. I will add it later.', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('HbIK09JIHnzZEaLlG7W8', 'Orange Spray', '6000', '20', 'XPY-344', 'NO ', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131126191446', 'POLI98jk', 'GrpzzgpJSVumkTuMRQBZ', '1120000', '2013-11-26', 'NO', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131126191446', 'POLI98jk', 'GrpzzgpJSVumkTuMRQBZ', '1120000', '2013-11-26', 'NO', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('YM8eWw2XGsJKxTq', '20131126191446', 'HbIK09JIHnzZEaLlG7W8', '2000', '560', '1120000', 1);

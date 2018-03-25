@@ -1,0 +1,7 @@
+
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('Y0GJLKPLyQ7LGMy1bf7Y', 'testttt', 'RIW41MPIVYATJDNRR66A', '100', '200', '10', 'na-123', 'sdfsdf', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20161221133215', '4354353', 'RIW41MPIVYATJDNRR66A', '18000', '2016-12-21', 'sdfsdf', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20161221133215', '4354353', 'RIW41MPIVYATJDNRR66A', '18000', '2016-12-21', 'sdfsdf', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('DyvkPSDGNU4BW8f', '20161221133215', 'Y0GJLKPLyQ7LGMy1bf7Y', '20', '200', '4000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('Kszl5sAYETHlAEM', '20161221133215', 'Y0GJLKPLyQ7LGMy1bf7Y', '30', '200', '6000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('bi16oEKVaX9Afzu', '20161221133215', 'Y0GJLKPLyQ7LGMy1bf7Y', '40', '200', '8000', 1);

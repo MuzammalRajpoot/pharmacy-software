@@ -1,0 +1,76 @@
+
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('O2pltg7YBzqDVm2LXP74', 'csrf', 'TE6UAR3SQWJCLANNOSXE', '33', '33', 'cs-1', 'csrf-test', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '{supplier_id}', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = 'TE6UAR3SQWJCLANNOSXE', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = 'TE6UAR3SQWJCLANNOSXE', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+DELETE FROM `product_information`
+WHERE `product_id` IS NULL;
+DELETE FROM `product_information`
+WHERE `product_id` IS NULL;
+DELETE FROM `product_information`
+WHERE `product_id` IS NULL;
+DELETE FROM `product_information`
+WHERE `product_id` IS NULL;
+DELETE FROM `product_information`
+WHERE `product_id` = 'sZw4kDlPScy9xNHZlZvY';
+DELETE FROM `product_information`
+WHERE `product_id` = 'K77N6sxkB4saSbSaFznz';
+UPDATE `supplier_information` SET `supplier_name` = 'Google', `address` = 'asdfsadf', `mobile` = '0185644585', `details` = 'dfaf'
+WHERE `supplier_id` = 'WAWDQFSBBV4KFIHTFWYG';
+UPDATE `supplier_information` SET `supplier_name` = 'Googlebd', `address` = 'asdfsadf', `mobile` = '0185644585', `details` = 'dfaf'
+WHERE `supplier_id` = 'WAWDQFSBBV4KFIHTFWYG';
+DELETE FROM `supplier_information`
+WHERE `supplier_id` = 'WAWDQFSBBV4KFIHTFWYG';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('LMI4SUGG1S7GPMX', 'New sdfsdfsda1', 'fgsdfgsd', '45345353454', 'new@dsfsf.com', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('XUYF9UVV8Q', 'LMI4SUGG1S7GPMX', 'NA', NULL, '', 'Previous adjustment with software', 'NA', 'NA', '2017-01-04', 1);
+UPDATE `customer_information` SET `customer_name` = 'S.S ENTERPRISE / SUMON ', `customer_address` = 'SUNDARBAN SQURE SUPER MARKET, SHOP NO:-', `customer_mobile` = '01720535464', `customer_email` = 'admin@gmail.com'
+WHERE `customer_id` = '2655O4PGJF9TP8K';
+UPDATE `customer_information` SET `customer_name` = 'S.S ENTERPRISE / SUMON ', `customer_address` = 'SUNDARBAN SQURE SUPER MARKET, SHOP NO:-', `customer_mobile` = '01720535464', `customer_email` = 'admin@gmail.com'
+WHERE `customer_id` = '2655O4PGJF9TP8K';
+UPDATE `customer_information` SET `customer_name` = 'SHOHEL ENTERPRISE/ AKAMONI-GM SHOHEL', `customer_address` = 'SUNDARBAN SQURE SUPER MARKET, SHOP NO:-141', `customer_mobile` = '45345353454', `customer_email` = 'NONE'
+WHERE `customer_id` = 'U4PATC67NYINCUP';
+DELETE FROM `customer_information`
+WHERE `customer_id` = '3B7ZKEZJHAW3ZRT';
+DELETE FROM `customer_information`
+WHERE `customer_id` = 'YM2TB9FGJT9F88Y';
+UPDATE `product_purchase_details` SET `product_id` = 'DL1kYjAwEE2QM5S0Xwlb', `quantity` = '12', `rate` = '100', `total_amount` = '1200'
+WHERE `purchase_detail_id` = 'b0K3NK6B7b104n3';
+UPDATE `product_purchase_details` SET `product_id` = 'WPiw4RGT3LpXUj8QogNy', `quantity` = '12', `rate` = '2323', `total_amount` = '27876'
+WHERE `purchase_detail_id` = 'h7Rca3V7V0csO4X';
+DELETE FROM `product_purchase`
+WHERE `purchase_id` = '20170102060935';
+DELETE FROM `product_purchase_details`
+WHERE `purchase_id` = '20170102060935';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('NU61B5H5VC34ZQH', 'Naeem Khan', 'Noakhali', '01875662332', 'naeem@gmail.com', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('1Z7LHJ1YKU', 'NU61B5H5VC34ZQH', 'NA', NULL, '', 'Previous adjustment with software', 'NA', 'NA', '2017-01-04', 1);
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('R5CE2OSCBQXTDAEPLU72', 'aadsfds', 'sdfasf', '45345353454', 'sadfsa', 1);
+UPDATE `supplier_information` SET `supplier_name` = 'aadsfds', `address` = 'sdfasf', `mobile` = '45345353454', `details` = 'sadfsa'
+WHERE `supplier_id` = 'R5CE2OSCBQXTDAEPLU72';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('6797978313', 'U4PATC67NYINCUP', '2017-01-04', '10492', 1130, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('962716866924446', 'U4PATC67NYINCUP', '6797978313', '2017-01-04', '10492', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('675455328128831', '6797978313', 'Y0GJLKPLyQ7LGMy1bf7Y', '12', '100', '200', '1200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('224531445343395', '6797978313', 'WPiw4RGT3LpXUj8QogNy', '4', '2323', '2323', '9292', 1);
+UPDATE `invoice` SET `customer_id` = 'EQ4NGHQXDUK18ZG', `date` = '2016-12-22 00:00:00', `total_amount` = '110400'
+WHERE `invoice_id` = '1286945363';
+UPDATE `customer_ledger` SET `customer_id` = 'EQ4NGHQXDUK18ZG', `invoice_no` = '1286945363', `date` = '2016-12-22 00:00:00', `amount` = '110400'
+WHERE `invoice_no` = '1286945363';
+UPDATE `invoice_details` SET `invoice_id` = '1286945363', `product_id` = 'bPxrPHdBYavM1lZLk7il', `cartoon` = NULL, `quantity` = '480', `rate` = '230', `total_price` = '110400'
+WHERE `invoice_details_id` = '696221614183846';
+UPDATE `invoice` SET `customer_id` = 'U4PATC67NYINCUP', `date` = '2016-12-22 00:00:00', `total_amount` = '78600'
+WHERE `invoice_id` = '9724293349';
+UPDATE `customer_ledger` SET `customer_id` = 'U4PATC67NYINCUP', `invoice_no` = '9724293349', `date` = '2016-12-22 00:00:00', `amount` = '78600'
+WHERE `invoice_no` = '9724293349';
+UPDATE `invoice_details` SET `invoice_id` = '9724293349', `product_id` = 'KPYLXvFjxkqRNUHaMY55', `cartoon` = NULL, `quantity` = '40', `rate` = '310', `total_price` = '12400'
+WHERE `invoice_details_id` = '948766986549635';
+UPDATE `invoice_details` SET `invoice_id` = '9724293349', `product_id` = 'CQJBQ6LFvAUWE2HuVC7z', `cartoon` = NULL, `quantity` = '100', `rate` = '290', `total_price` = '29000'
+WHERE `invoice_details_id` = '297423449884236';
+UPDATE `invoice_details` SET `invoice_id` = '9724293349', `product_id` = 'KPYLXvFjxkqRNUHaMY55', `cartoon` = NULL, `quantity` = '120', `rate` = '310', `total_price` = '37200'
+WHERE `invoice_details_id` = '288546386675941';
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('RFKI9EPEPTKTYTO', 'NU61B5H5VC34ZQH', NULL, 'TLSOH3WI1Y', '2323', 'asdfsdfs', '1', '', '2017-01-04', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('RFKI9EPEPTKTYTO', 'NU61B5H5VC34ZQH', '1', '2017-01-04', '2323', 'asdfsdfs', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('4DYC76q0SnlIaUV', 'RIW41MPIVYATJDNRR66A', NULL, 'bhT9O5Lb99', '232', 'sadfs', '1', '', '2017-01-04', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('4DYC76q0SnlIaUV', 'RIW41MPIVYATJDNRR66A', '1', '2017-01-04', '232', 'sadfs', 1);
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('J565YnVfAC4lcL2', '54386', '2323', '232', '2017-01-04 16:59:07', '56477', '234', 1);

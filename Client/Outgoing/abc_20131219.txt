@@ -1,0 +1,24 @@
+
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('E1IP6O9WEV', 'Brac Bank', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('z62tqf8qbOhdLUrjELb3', 'SM-345', '260', '20', 'SM-345', 'sdg', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('VaZcabSAI0CPqmnzRGXe', 'SM-346', '390', '20', 'SM-346', 'no des', 1);
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('QTOCSDKPZY6IY2GCO295', 'Al Emam', 'Test', '018576952', 'adfb', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('RGMW8BEQAGEFCH6', 'Test', '', '', 'test', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('EB1BIKNOWW', 'RGMW8BEQAGEFCH6', 'NA', NULL, '4520', 'Previous adjustment with software', 'NA', 'NA', '2013-12-19', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131219135023', '4723865', 'QTOCSDKPZY6IY2GCO295', '8800', '2013-12-19', 'sdjkgkds', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131219135023', '4723865', 'QTOCSDKPZY6IY2GCO295', '8800', '2013-12-19', 'sdjkgkds', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('TPzdxfPf9bhEKfS', '20131219135023', 'z62tqf8qbOhdLUrjELb3', '40', '220', '8800', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('N5XZ9QLZSC', 'RGMW8BEQAGEFCH6', '2013-12-19', '10400', 1000, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('IgxI9S5UGO5xoTF', 'RGMW8BEQAGEFCH6', 'N5XZ9QLZSC', '2013-12-19', '10400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('zabJbLWWjLV1wui', 'N5XZ9QLZSC', 'z62tqf8qbOhdLUrjELb3', '2', '40', '260', '220', '10400', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('CXA7GRGBLU', 'Customer Payment', 'inflow_BU5O9E9A3J', '2');
+CREATE TABLE IF NOT EXISTS inflow_BU5O9E9A3J (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;

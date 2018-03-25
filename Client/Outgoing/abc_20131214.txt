@@ -1,0 +1,71 @@
+
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('AXTWFEBK3GDKGW2H86VF', 'Al Emam', 'Chitagong', '01977262626', 'Permanent ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('WvapHkx3dMpXG9fPQuRG', 'SM-769A', '360', '20', 'SM-769A', 'SUNMOON SM-769A', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('VSB7TZZ7U3Y2CCQ', 'Universal Electroics', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('UPO96NEY4A', 'VSB7TZZ7U3Y2CCQ', 'NA', NULL, '90000', 'Previous adjustment with software', 'NA', 'NA', '2013-12-14', 1);
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('POJIKJK8U2RGTCC2SY2C', 'Al-noor', 'sdfgds', 'dsfbvhjsd', 'dfgsd', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('13XIBIVTMI47J8Y', 'Habi Jabi', '', 'd8924736583674', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('BW83L8NQVI', '13XIBIVTMI47J8Y', 'NA', NULL, '65345', 'Previous adjustment with software', 'NA', 'NA', '2013-12-14', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('DlnY6FwMTy7FpQPOtYQT', 'SM-768', '260', '40', 'SM-768', 'BVKJDH', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131214131529', 'HYDGFAYUE', 'AXTWFEBK3GDKGW2H86VF', '8800', '2013-12-14', 'NHDGFSHJ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131214131529', 'HYDGFAYUE', 'AXTWFEBK3GDKGW2H86VF', '8800', '2013-12-14', 'NHDGFSHJ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('3qHp7FX5RFISto0', '20131214131529', 'WvapHkx3dMpXG9fPQuRG', '40', '220', '8800', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('GOPD13Z47T', 'VSB7TZZ7U3Y2CCQ', '2013-12-14', '7200', 1000, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('4mEFXy6RwjtJCfN', 'VSB7TZZ7U3Y2CCQ', 'GOPD13Z47T', '2013-12-14', '7200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('CoqjwkthuRrTvtM', 'GOPD13Z47T', 'WvapHkx3dMpXG9fPQuRG', '1', '20', '360', '220', '7200', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('I5BD6UIDJU', 'Supplier Payment', 'outflow_YNG7EY89HH', '1');
+CREATE TABLE IF NOT EXISTS outflow_YNG7EY89HH (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('1OXZ5AMFDT', 'Labour Payment', 'outflow_XGMN24IZMC', '1');
+CREATE TABLE IF NOT EXISTS outflow_XGMN24IZMC (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('R7K92QM79A', 'Office Rent', 'outflow_ZHM4PHGZZB', '1');
+CREATE TABLE IF NOT EXISTS outflow_ZHM4PHGZZB (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('jW2EMJM4wD8nmiO', 'AXTWFEBK3GDKGW2H86VF', NULL, '2bNwhyAtTb', '2000', 'dgfj', '1', '', '2013-12-14', 0);
+INSERT INTO `outflow_YNG7EY89HH` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('jW2EMJM4wD8nmiO', 'AXTWFEBK3GDKGW2H86VF', '1', '2013-12-14', '2000', 'dgfj', 0);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Glm9uKubw8gpD7g', 'XYZ', NULL, 'hcItW8fwAD', '700', 'sdghjd', '1', '', '2013-12-14', 0);
+INSERT INTO `outflow_XGMN24IZMC` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Glm9uKubw8gpD7g', 'XYZ', '1', '2013-12-14', '700', 'sdghjd', 0);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('GKD7VE7VSW', 'Payment Receipt', 'inflow_M7V43H4CWJ', '2');
+CREATE TABLE IF NOT EXISTS inflow_M7V43H4CWJ (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('X3YCOBTFS8X1RVE', 'VSB7TZZ7U3Y2CCQ', NULL, 'NA8PBVNWJF', '2000', 'hxzgf', '1', '', '2013-12-14', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('X3YCOBTFS8X1RVE', 'VSB7TZZ7U3Y2CCQ', '1', '2013-12-14', '2000', 'hxzgf', 0);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('9RFKWY68PUW7RJJ', 'VSB7TZZ7U3Y2CCQ', NULL, 'EIL24X7JCS', '8000', 'frhtfhg', '1', '', '2013-12-14', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('9RFKWY68PUW7RJJ', 'VSB7TZZ7U3Y2CCQ', '1', '2013-12-14', '8000', 'frhtfhg', 0);
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('tQlraSClokghwlI', '', '10000', '2700', '2013-12-14 19:00:31', '7300', '0', 1);
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('951P2V36UWON', 'VYEFX6C521TXR8E', 'VSB7TZZ7U3Y2CCQ', 'GFGHF64563', '4652737hrguyw', '2013-12-25', 'inflow', 0, '8000', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('VYEFX6C521TXR8E', 'VSB7TZZ7U3Y2CCQ', NULL, 'CGS3ISM68S', '8000', 'gujgjh', '2', '4652737hrguyw', '2013-12-14', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('VYEFX6C521TXR8E', 'VSB7TZZ7U3Y2CCQ', '2', '2013-12-14', '8000', 'gujgjh', 0);

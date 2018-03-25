@@ -1,0 +1,58 @@
+
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin1@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('tuhin@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('test@gmail.com', '41d99b369894eb1ec3f461135132d8bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('test@gmail.com', '41d99b369894eb1ec3f461135132d8bb', '1', 1);
+UPDATE `users` SET `first_name` = NULL, `last_name` = NULL, `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = NULL, `last_name` = NULL, `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = NULL, `last_name` = NULL, `status` = '1'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '1'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '1'
+WHERE `user_id` = '1';
+DELETE FROM `users`
+WHERE `user_id` = '5';
+DELETE FROM `users`
+WHERE `user_id` = '4';
+DELETE FROM `user_login`
+WHERE `user_id` = '2';
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('tuhin@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('tuhin@gmail.com', '46195da05f08b1e08d03746a582f11bb', '1', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('DgURSTPj0etGtpHXkHOU', 'new', 'WAWDQFSBBV4KFIHTFWYG', '200', '200', 'new1', 'New product', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('WPiw4RGT3LpXUj8QogNy', 'new12', 'RIW41MPIVYATJDNRR66A', '2323', '2323', 'new12', 'sdfsads', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('ibZkLjnZu9ctbezJ0dOw', 'new123', 'RIW41MPIVYATJDNRR66A', '23', '23', 'new123', 'sdfsadf fdsa', 1);
+UPDATE `product_information` SET `product_name` = 'new123', `supplier_id` = 'RIW41MPIVYATJDNRR66A', `price` = '23', `supplier_price` = '23', `product_model` = 'new123', `product_details` = 'sdfsadf fdsa', `status` = 1
+WHERE `product_id` IS NULL;
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '9NQMWIN2EG91FU4L8E5E', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` IS NULL;
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '9NQMWIN2EG91FU4L8E5E', `price` = '2310', `supplier_price` = '2310', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` IS NULL;
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '{supplier_id}', `price` = '230', `supplier_price` = '230', `product_model` = 'SM-771', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '9NQMWIN2EG91FU4L8E5E', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+DELETE FROM `supplier_information`
+WHERE `supplier_id` = '9NQMWIN2EG91FU4L8E5E';
+DELETE FROM `product_information`
+WHERE `product_id` = 'ibZkLjnZu9ctbezJ0dOw';
+DELETE FROM `product_information`
+WHERE `product_id` = 'NRKokYCzbFaGnoa8obd8';

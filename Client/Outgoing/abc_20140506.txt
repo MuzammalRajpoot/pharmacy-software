@@ -1,0 +1,8 @@
+
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('E5PK3LE59YRZQFS', '', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('B8DAYWJ1LH', 'E5PK3LE59YRZQFS', 'NA', NULL, 0, 'Previous adjustment with software', 'NA', 'NA', '2014-05-06', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('JJ85LRAH7KBIP7I', 'E5PK3LE59YRZQFS', 'FO8TVRXSVX', '2014-05-06', '15150', 1, 'ITP', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('II89VFJ4DEGTEMU', 'E5PK3LE59YRZQFS', '2014-05-06', '15150', 1, 'ITP', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('3179597615', 'E5PK3LE59YRZQFS', '2014-05-06', '15150', 1013, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('448841171645381', 'E5PK3LE59YRZQFS', '3179597615', '2014-05-06', '15150', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('924929147259863', '3179597615', 'KLwiY76Nh3JAGZ3wGIo8', '1', '50', '303', '300', '15150', 1);

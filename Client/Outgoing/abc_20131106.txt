@@ -1,0 +1,21 @@
+
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('7f39JqyUXoiUDeS', 0, 0, 0, 0, 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('skpZBfgLgfq9xSd', 0, 0, 0, 0, 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('nH57tRU1kq686pK', 'hvhgfhjgf', 'bjhgjgh', '7869876876576', 'hghjgfh@vhjhg.com', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('QT3RZ4bwQ3nNhm6', 'Test Khan', 'fgkbsjd', '054646546', 'shamima_popy@hotmail.com', 1);
+DELETE FROM `customer_information`
+WHERE `customer_id` =  'nH57tRU1kq686pK';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('Ojm0iEa82oZtWJf', '348694857', '', 0, 'bd@cjdngksa', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('ANkIu246607iAr6', '348694857', '', 0, 'bd@cjdngksa', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('Z8FDuaQBGgEDE9z', '348694857', '', 0, 'bd@cjdngksa', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('LxpPPzBmwCvndwT', '348694857', '', 0, 'bd@cjdngksa', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Zi3thuqZHQ', 'LxpPPzBmwCvndwT', 'NA', 'NA', '45220', 'Previous adjustment with software', 'NA', 'NA', '2013-11-06', 1);
+DELETE FROM `customer_information`
+WHERE `customer_id` =  'LxpPPzBmwCvndwT';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('CVsyS8coRR6cWuN', 'Hello Tester', 'jkdgdkfg', 'cxvnxkb', 'djgfskdjf', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('cXT4YohGcC', 'CVsyS8coRR6cWuN', 'NA', 'NA', '485000', 'Previous adjustment with software', 'NA', 'NA', '2013-11-06', 1);
+UPDATE `customer_information` SET `customer_name` = 'Hello Tester', `customer_address` = 'jBangladesh', `customer_mobile` = '014587695', `customer_email` = 'asd@fgnafsk.com' WHERE `customer_id` =  'CVsyS8coRR6cWuN';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('f4wbEG4WnoQKFfe', 'Another Test', '', '01817584639', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('jtJoxahTkh', 'f4wbEG4WnoQKFfe', NULL, 'NA', '78900000', 'Previous adjustment with software', 'NA', 'NA', '2013-11-06', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('RYX4E4XD1KL2FV0', 'FINAL TEST', '', '01254856555', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Jv8gRTKBFy', 'RYX4E4XD1KL2FV0', 'NA', NULL, '782000', 'Previous adjustment with software', 'NA', 'NA', '2013-11-06', 1);

@@ -1,0 +1,57 @@
+
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('Fyx52DfHkz', 'Office Rent', 'outflow_Ki4Uza6JMf', '1');
+CREATE TABLE IF NOT EXISTS outflow_Ki4Uza6JMf (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` date NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('T7eyZWDBLTr10wk', 't1S1S7PDzQhpbC0', NULL, 'DLLVYJ71sd', '450', 'No desc', '3', 'sadfsa', '2013-11-22', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('ZFsGHn0Fpu', 'Customer Payment', 'inflow_cxGwufu432', '2');
+CREATE TABLE IF NOT EXISTS inflow_cxGwufu432 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` date NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('qvyUBMbAUM3Mkwk', '2gPnnJ6b2ywUYcb', NULL, 'bZhIhkONNb', '78000', 'jknkjb', '1', '', '2013-11-22', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('atrTahO8549XFsI', 't1S1S7PDzQhpbC0', NULL, 'v96HMyjcKA', '5600', '23454 sdhgkd jdhfksd fhksdfhg', '1', '', '2013-11-22', 1);
+INSERT INTO `inflow_cxGwufu432` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('atrTahO8549XFsI', 't1S1S7PDzQhpbC0', '1', '2013-11-22', '5600', '23454 sdhgkd jdhfksd fhksdfhg', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('U0L4XrazC3WhzQr', 'Shamim', NULL, 'qY5Wulh5Xs', '8099', 'sdmhksj', '1', '', '2013-11-22', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('NyuDgOYdsM3FQ5Q', 'Shamim', NULL, 'Rmgamcdyox', '34534', 'ds', '1', '', '2013-11-22', 1);
+INSERT INTO `inflow_cxGwufu432` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('NyuDgOYdsM3FQ5Q', 'Shamim', '1', '2013-11-22', '34534', 'ds', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('SIUFcheRiA', 'Official Expences', 'outflow_pOAUn6AfRF', '1');
+CREATE TABLE IF NOT EXISTS outflow_pOAUn6AfRF (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('mqxbVloJTs', 'Hawlat', 'inflow_mlGmXr4AMV', '2');
+CREATE TABLE IF NOT EXISTS inflow_mlGmXr4AMV (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('CcI712PzCJMukCx', 'UeHlSaLkJ8cT7Uw', NULL, 'Lcli47OR2l', '2334', 'jsh', '1', '', '2013-11-22', 1);
+INSERT INTO `inflow_mlGmXr4AMV` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('CcI712PzCJMukCx', 'UeHlSaLkJ8cT7Uw', '1', '2013-11-22', '2334', 'jsh', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('A3YwYffUhOtkHjM', 0, NULL, 'vrYmKArLHg', 0, 0, 0, 0, '2013-11-22', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('7irQZo2aouaY5gl', '', NULL, 'M1Cv0W0Kh1', '2333', 'sadsad', '1', '', '2013-11-22', 1);
+INSERT INTO `outflow_Ki4Uza6JMf` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('7irQZo2aouaY5gl', '', '1', '2013-11-22', '2333', 'sadsad', 1);

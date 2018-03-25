@@ -1,0 +1,18 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('7H2AOGHTQA', 'jk9pOI0Ftkjc56', '2013-12-12', '66000', 1024, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('wWyiY0LY3oxWvWw', 'jk9pOI0Ftkjc56', '7H2AOGHTQA', '2013-12-12', '66000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('KusV7tQdlrrryD9', '7H2AOGHTQA', 'McDxTxDDw1c6HSo4eYb6', '2', '30', '2200', '3400', '66000', 1);
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('P3UCDMBLY368', 'RG7TQV9BRCDLNWB', 'jk9pOI0Ftkjc56', 'BbkjEybCqrcm3qUpF3PA', '465436dgfdhyh', '2013-12-20', 'inflow', 0, '46500', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('RG7TQV9BRCDLNWB', 'jk9pOI0Ftkjc56', NULL, '8HL2UI24HT', '46500', 'ytyty', '2', '465436dgfdhyh', '2013-12-12', 0);
+INSERT INTO `inflow_18BCB39XC2` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('RG7TQV9BRCDLNWB', 'jk9pOI0Ftkjc56', '2', '2013-12-12', '46500', 'ytyty', 0);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('M3PILFS7RS', 'Office Expense', 'outflow_OSLL37XO15', '1');
+CREATE TABLE IF NOT EXISTS outflow_OSLL37XO15 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;

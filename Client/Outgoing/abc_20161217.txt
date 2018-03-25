@@ -1,0 +1,4 @@
+
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('V8N21DSQNE', '', 1);
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('1KSIPIKNCQ', '', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('wK6I5iaMlCwuUsMlBLcF', 'Biscuit', 'ANRRRNH969KIZJIDLQ7D', '5345', '345', '32', 'erte', 'sdfsafsa', 1);

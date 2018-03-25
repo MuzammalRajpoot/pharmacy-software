@@ -1,0 +1,106 @@
+
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('VA9NBNFJDJJV5JLEH5J4', 'Faruk and Brothers', 'MS Electric Market', '01815614807', 'YJ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('UqpDvuRZ0xVChxv0NEtp', 'Sunmoon', 0, '355', '350', '20', 'SM-769A', '(52 Led)', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('8JEfAKn5bSHs8oGWkyYz', 'Sunmoon', 0, '285', '280', '40', 'SM-768', '30 LED', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('i68s7HIYobc3jLRqVkCm', 'Sunmoon', 0, '220', '215', '50', 'SM-7638', '30 led', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('GrM8aTrOrbDS6Hk9Gu5h', 'DP Brand', 0, '295', '290', '60', 'DP-666', '25 led', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('jNzNyZ4RFrPKfOelL0O5', 'DP Brand', 0, '450', '445', '30', 'DP-715', '63 LED', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('PzmXHsS4WVvZx75OYAxu', 'DP Brand', 0, '275', '270', '50', 'DP-636', '24 led', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150529052638', '4546546', 'L6CJDLV1AQLXMWHZH5IT', '1137000', '2015-05-29', 'Dimond', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150529052638', '4546546', 'L6CJDLV1AQLXMWHZH5IT', '1137000', '2015-05-29', 'Dimond', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('RIYrqVlSrFodiUe', '20150529052638', 'i68s7HIYobc3jLRqVkCm', '2000', '220', '440000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('psBssBKG3E5uvq7', '20150529052638', 'UqpDvuRZ0xVChxv0NEtp', '1000', '355', '355000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('g9E5puPRD7Xsa6C', '20150529052638', '8JEfAKn5bSHs8oGWkyYz', '1200', '285', '342000', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150529053316', '70000', 'VA9NBNFJDJJV5JLEH5J4', '1351000', '2015-05-29', 'Moon Light', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150529053316', '70000', 'VA9NBNFJDJJV5JLEH5J4', '1351000', '2015-05-29', 'Moon Light', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('5CyoOi2H6KBH5My', '20150529053316', 'GrM8aTrOrbDS6Hk9Gu5h', '1800', '295', '531000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('7rX3nOTwI4vhu7o', '20150529053316', 'PzmXHsS4WVvZx75OYAxu', '2000', '275', '550000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('n1rcf7AWD7hEDbS', '20150529053316', 'jNzNyZ4RFrPKfOelL0O5', '600', '450', '270000', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('RLUHTHWF33XLYQC', 'Universal Electronics', 'Sundorban Electronics Market', '018145646465', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('UI8ZDYDE87', 'RLUHTHWF33XLYQC', 'NA', NULL, '200000', 'Previous adjustment with software', 'NA', 'NA', '2015-05-29', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('YHVBZ1Z8YQY8X7J', 'S.S Enterprise', 'Sundorban Market', '01815614807', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('2S4HJ1Z38N', 'YHVBZ1Z8YQY8X7J', 'NA', NULL, '165800', 'Previous adjustment with software', 'NA', 'NA', '2015-05-29', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('I2WGU2GNKOHXCOX', 'Perfect Trading', 'Mozammal Market', '018145646465', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('UMNRAFZTV1', 'I2WGU2GNKOHXCOX', 'NA', NULL, '218000', 'Previous adjustment with software', 'NA', 'NA', '2015-05-29', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1775293746', 'YHVBZ1Z8YQY8X7J', '2015-05-29', '49600', 1000, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('154112946441194', 'YHVBZ1Z8YQY8X7J', '1775293746', '2015-05-29', '49600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('581682668277452', '1775293746', 'UqpDvuRZ0xVChxv0NEtp', '2', '40', '355', '350', '14200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('157468652296315', '1775293746', 'jNzNyZ4RFrPKfOelL0O5', '2', '120', '295', '445', '35400', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('6755694977', 'RLUHTHWF33XLYQC', '2015-05-29', '178400', 1001, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('746235233943756', 'RLUHTHWF33XLYQC', '6755694977', '2015-05-29', '178400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('269291775234522', '6755694977', 'UqpDvuRZ0xVChxv0NEtp', '4', '80', '355', '350', '28400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('295828331634898', '6755694977', 'GrM8aTrOrbDS6Hk9Gu5h', '1', '60', '295', '290', '17700', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('525434592925476', '6755694977', 'jNzNyZ4RFrPKfOelL0O5', '2', '60', '450', '445', '27000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('596178812864344', '6755694977', '8JEfAKn5bSHs8oGWkyYz', '2', '80', '285', '280', '22800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('295648188279616', '6755694977', 'PzmXHsS4WVvZx75OYAxu', '2', '100', '275', '270', '27500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('365963743838353', '6755694977', 'i68s7HIYobc3jLRqVkCm', '5', '250', '220', '215', '55000', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('TJZM9BFX7Z', 'Previous Adjustment Cash', 'inflow_6MXL842E9R', '2');
+CREATE TABLE IF NOT EXISTS inflow_6MXL842E9R (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('GUXDUVLUBPR48MG', 'Previous Adjustment', NULL, '78CU1MI53B', '500000', 'Previous Cash from my cash', '1', '', '2015-05-29', 1);
+INSERT INTO `inflow_6MXL842E9R` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('GUXDUVLUBPR48MG', 'Previous Adjustment', '1', '2015-05-29', '500000', 'Previous Cash from my cash', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('WSMUQ49O2HQYBBG', 'YHVBZ1Z8YQY8X7J', NULL, 'UT9I7ER87E', '30000', 'Saiful', '1', '', '2015-05-29', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('WSMUQ49O2HQYBBG', 'YHVBZ1Z8YQY8X7J', '1', '2015-05-29', '30000', 'Saiful', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('JMPMQ2DSBZ3VOF6', 'RLUHTHWF33XLYQC', NULL, 'W6ADKKKV1L', '40000', 'Sumon', '1', '', '2015-05-29', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('JMPMQ2DSBZ3VOF6', 'RLUHTHWF33XLYQC', '1', '2015-05-29', '40000', 'Sumon', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('C2ua02CKAAkhoHK', 'L6CJDLV1AQLXMWHZH5IT', NULL, 'n2TBAZBSao', '150000', 'Brac Bank', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('C2ua02CKAAkhoHK', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29', '150000', 'Brac Bank', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('pND5UM7dtkhz0ay', 'VA9NBNFJDJJV5JLEH5J4', NULL, 'yl226ldVZ5', '50000', 'Own', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('pND5UM7dtkhz0ay', 'VA9NBNFJDJJV5JLEH5J4', '1', '2015-05-29', '50000', 'Own', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('CEB83JBL5D', 'Labour Bill', 'outflow_GEG8X2SJK7', '1');
+CREATE TABLE IF NOT EXISTS outflow_GEG8X2SJK7 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('Q5XJV13P87', 'Office Expenses', 'outflow_OXQ7XAGC3X', '1');
+CREATE TABLE IF NOT EXISTS outflow_OXQ7XAGC3X (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('3DcV3fMAqqzyMYK', 'Rahim', NULL, 'uJ3HFkX9rz', '500', 'N/A', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_GEG8X2SJK7` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('3DcV3fMAqqzyMYK', 'Rahim', '1', '2015-05-29', '500', 'N/A', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('E50U8iOKe8qX0Yd', 'Bazar', NULL, '5PZ7mGDeYf', '130', 'Saiful', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_OXQ7XAGC3X` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('E50U8iOKe8qX0Yd', 'Bazar', '1', '2015-05-29', '130', 'Saiful', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('RXKCIXZ3TAP8ZKL', 'Mr X Y', 'Danmondi', '', '', 2);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('6O11W8UJV7', 'RXKCIXZ3TAP8ZKL', 'NA', NULL, 0, 'Previous adjustment with software', 'NA', 'NA', '2015-05-29', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('QHAZVWIJ8KRTBKH', 'RXKCIXZ3TAP8ZKL', 'B1F2CRXQIP', '2015-05-29', '7100', 1, 'ITP', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('EHAO376A8WTT55U', 'RXKCIXZ3TAP8ZKL', '2015-05-29', '7100', 1, 'ITP', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8664261346', 'RXKCIXZ3TAP8ZKL', '2015-05-29', '7100', 1002, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('242264346151793', 'RXKCIXZ3TAP8ZKL', '8664261346', '2015-05-29', '7100', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('215254144119698', '8664261346', 'UqpDvuRZ0xVChxv0NEtp', '1', '20', '355', '350', '7100', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('C2ua02CKAAkhoHK', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29 00:00:00', '160000', 'Brac Bank', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('C2ua02CKAAkhoHK', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29 00:00:00', '70000', 'Brac Bank', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Jth2a9AbjScLeco', 'L6CJDLV1AQLXMWHZH5IT', NULL, 'sSwZw505xM', '5000', 'brac bank', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Jth2a9AbjScLeco', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29', '5000', 'brac bank', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('NiCz3hfopLsRQW6', 'VA9NBNFJDJJV5JLEH5J4', NULL, 'GYgfrQpyeT', '3000', 'DBBL', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('NiCz3hfopLsRQW6', 'VA9NBNFJDJJV5JLEH5J4', '1', '2015-05-29', '3000', 'DBBL', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('4CJKKR488QR3THF', 'BDTASK', 'farmgate', '', '', 2);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('UNO257D34O', '4CJKKR488QR3THF', 'NA', NULL, 0, 'Previous adjustment with software', 'NA', 'NA', '2015-05-29', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('LYGA5158BFJSAHQ', '4CJKKR488QR3THF', 'QYKD6PXI4Q', '2015-05-29', '11400', 1, 'ITP', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('E2U7T8JLEJH6EG7', '4CJKKR488QR3THF', '2015-05-29', '11400', 1, 'ITP', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('3993588726', '4CJKKR488QR3THF', '2015-05-29', '11400', 1003, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('345369843837555', '4CJKKR488QR3THF', '3993588726', '2015-05-29', '11400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('963559583615526', '3993588726', '8JEfAKn5bSHs8oGWkyYz', '1', '40', '285', '280', '11400', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Jth2a9AbjScLeco', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29 00:00:00', '5000', 'brac bank', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Y5zfZlYKd6obDQI', 'L6CJDLV1AQLXMWHZH5IT', NULL, 'NzvnUQiYrK', '2000', 'Test', '1', '', '2015-05-29', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Y5zfZlYKd6obDQI', 'L6CJDLV1AQLXMWHZH5IT', '1', '2015-05-29', '2000', 'Test', 1);

@@ -1,0 +1,7 @@
+
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20161219134359', '435345sdfas', 'KIKXAZBDTHJ8XPLZLWCM', '4340000', '2016-12-19', 'sdfasdfs', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20161219134359', '435345sdfas', 'KIKXAZBDTHJ8XPLZLWCM', '4340000', '2016-12-19', 'sdfasdfs', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('6IN4YTLIUcL2qB5', '20161219134359', 'sKjoMno9yHX4dNcwo9Hc', '10000', '434', '4340000', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('4874158275', 'EQ4NGHQXDUK18ZG', '2016-12-19', '14756000', 1008, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('355981859514485', 'EQ4NGHQXDUK18ZG', '4874158275', '2016-12-19', '14756000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('564583243965138', '4874158275', 'sKjoMno9yHX4dNcwo9Hc', '34', '34000', '434', '434', '14756000', 1);

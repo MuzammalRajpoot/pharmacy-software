@@ -1,0 +1,6 @@
+
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('DCH6ZXP6LJMA', 'PQb2p0x4dFjBt7c', 'L6CJDLV1AQLXMWHZH5IT', 'FLS189N9Q6', '32141234', '2014-11-23', 'outflow', 0, '10000', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('PQb2p0x4dFjBt7c', 'L6CJDLV1AQLXMWHZH5IT', NULL, 'hKnydrSvkL', '10000', 'Niha Test', '2', '32141234', '2014-11-23', 0);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('PQb2p0x4dFjBt7c', 'L6CJDLV1AQLXMWHZH5IT', '2', '2014-11-23', '10000', 'Niha Test', 0);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('esMCl2tMfnu08ns', 'L6CJDLV1AQLXMWHZH5IT', NULL, 'UK3dRkCWQA', '1234', 'tsterr', '1', '', '2014-11-23', 1);
+INSERT INTO `outflow_8MHZOCIUGG` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('esMCl2tMfnu08ns', 'L6CJDLV1AQLXMWHZH5IT', '1', '2014-11-23', '1234', 'tsterr', 1);

@@ -1,0 +1,61 @@
+
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('A11BGFE8FTJOYPTQ9UF2', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('NOILG8EGCRXXBWUEUQBM', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('1YKU4ITLSOH3WI1YRFKI', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('9EPEPTKTYTONCV7WQQMF', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('G27EDPFIR8E1KKPM26GN', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('R9L8BSL5VV1J6PDHEAKL', 'Company name', 'dsfsadfsa', '3243242', 'sdfgdsgfds', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('31RDCFOVV5YEU2MLYG6K', 'Bdtask', '98,Green road.', '0185369524', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('H9IT4Q4M2SYG2QJDBFS1', 'Bdtask', '98,Green road.', '0185369524', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('SBLLSHIW4NXX1KT98MRX', 'Bdtask', 'sdfsadfa', '3243242', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('I3H7Y9YNMWZOM9HDK1Q6', 'Company name', 'sdfsd', '0185369524', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('HFLZZ7FD7J29P7U3KCKV', 'Company name', 'sdfsd', '0185369524', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('FQM1DKXLXKQYAYT6YHRM', 'Company name', 'sdfsd', '0185369524', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `address`, `mobile`, `website`, `status`) VALUES ('V4Y4AY7JXLDRNZ2JQLE3', 'New', 'sdfsafas', '018532564858', 'http://www.bdtask.com', 1);
+INSERT INTO `company_information` (`company_id`, `company_name`, `email`, `address`, `mobile`, `website`, `status`) VALUES ('EX4ZUUUCWNZH2ER8ASWW', 'New', 'new@gmail.com', 'wetwetw', '0185369524', 'http://www.bdtask.com', 1);
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = NULL, `email` = 'http://www.bdtask.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = NULL, `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = NULL, `email` = 'http://www.bdtask.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = NULL, `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = NULL, `email` = 'admin@demo.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = NULL, `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = NULL, `email` = 'admin@demo.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = 'sdfgdsgfds', `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = NULL, `email` = 'admin@demo.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = 'sdfgdsgfds', `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+UPDATE `company_information` SET `company_id` = 'EX4ZUUUCWNZH2ER8ASWW', `company_name` = 'update', `email` = 'admin@demo.com', `address` = 'wetwetw', `mobile` = '185369524', `website` = 'sdfgdsgfds', `status` = 1
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+DELETE FROM `company_information`
+WHERE `company_id` = 'EX4ZUUUCWNZH2ER8ASWW';
+DELETE FROM `company_information`
+WHERE `company_id` = 'FQM1DKXLXKQYAYT6YHRM';
+DELETE FROM `company_information`
+WHERE `company_id` = 'R9L8BSL5VV1J6PDHEAKL';
+INSERT INTO `company_information` (`company_id`, `company_name`, `email`, `address`, `mobile`, `website`, `status`) VALUES ('PVU5H9BK7S6X5XKG8N2S', 'Bangladesh paper', 'paper@gmail.com', 'dhaka', '0175862665', 'http://www.paper.com', 1);
+UPDATE `company_information` SET `company_id` = 'PVU5H9BK7S6X5XKG8N2S', `company_name` = 'Bangladesh paper bangladesh', `email` = 'paper@gmail.com', `address` = 'dhaka,bangladesh', `mobile` = '1758626651', `website` = 'http://www.paper.com', `status` = 1
+WHERE `company_id` = 'PVU5H9BK7S6X5XKG8N2S';
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('User', 'user@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '0', 1);
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('User', 'user@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '0', 1);
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('admin', 'admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '1', 1);
+UPDATE `user_info` SET `name` = 'User', `email` = NULL, `user_type` = '0', `status` = '0'
+WHERE `id` = '16';
+UPDATE `user_info` SET `name` = 'User', `email` = NULL, `user_type` = '0', `status` = '0'
+WHERE `id` = '16';
+UPDATE `user_info` SET `name` = 'User edit', `email` = NULL, `user_type` = '0', `status` = '1'
+WHERE `id` = '16';
+UPDATE `user_info` SET `name` = 'User edit', `email` = 'new@gmail.com', `user_type` = '0', `status` = '0'
+WHERE `id` = '16';
+DELETE FROM `user_info`
+WHERE `id` = '{id}';
+DELETE FROM `user_info`
+WHERE `id` = '16';
+DELETE FROM `user_info`
+WHERE `id` = '15';
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('User edit', 'admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '0', 1);
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('User edit', 'admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '0', 1);
+INSERT INTO `user_info` (`name`, `email`, `password`, `user_type`, `status`) VALUES ('User', 'admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '0', 1);
+UPDATE `user_info` SET `name` = 'new', `email` = 'new@gmail.com', `user_type` = '0', `status` = '0'
+WHERE `id` = '14';
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin@demo.com', 'e10adc3949ba59abbe56e057f20f883e', '1', 1);
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('admin@demo.com', '41d99b369894eb1ec3f461135132d8bb', '1', 1);

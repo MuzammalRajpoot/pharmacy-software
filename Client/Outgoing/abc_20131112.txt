@@ -1,0 +1,5 @@
+
+UPDATE `product_purchase_details` SET `product_id` = 'mIgciPBHV8tjDffwVlpN', `quantity` = '36', `rate` = '200', `total_amount` = '7200' WHERE `purchase_detail_id` =  'htEG4uTavcLiIcV';
+UPDATE `product_purchase_details` SET `product_id` = 'b2NeF3viBMdjTDKhnHN4', `quantity` = '40', `rate` = '3000', `total_amount` = '120000' WHERE `purchase_detail_id` =  'zd19FuN2qamNcdr';
+UPDATE `product_purchase_details` SET `product_id` = 'ZAl3A3MqduV6aTQE753F', `quantity` = '60', `rate` = '1000', `total_amount` = '60000' WHERE `purchase_detail_id` =  'suWhlZEtlwDW7rR';
+UPDATE `product_purchase_details` SET `product_id` = 'McDxTxDDw1c6HSo4eYb6', `quantity` = '90', `rate` = '3400', `total_amount` = '306000' WHERE `purchase_detail_id` =  'CUfO17E2WjsosYR';

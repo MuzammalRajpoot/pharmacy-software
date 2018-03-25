@@ -1,0 +1,6 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5173249939', 'ZYL753XODJFDL4Y', '2014-03-03', '14200', 1011, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('119536542723493', 'ZYL753XODJFDL4Y', '5173249939', '2014-03-03', '14200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('475515913336329', '5173249939', '7bU0tRt3G2Gh0hbda12o', '1', '20', '355', '350', '7100', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('231283736918357', '5173249939', '7bU0tRt3G2Gh0hbda12o', '1 ', '20', '355', '350', '7100', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('1vc83WSaTfVQxT08E2C6', 'SUNMOON', '360', '350', '20', 'SM-769A', '52', 1);

@@ -1,0 +1,15 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('BDFLII8XNT', 'jk9pOI0Ftkjc56', '2013-11-05', '150000', 1007, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('ZFPiLNTzJqHQnBo', 'jk9pOI0Ftkjc56', 'BDFLII8XNT', '2013-11-05', '150000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `total_price`, `status`) VALUES ('GdJgCCj1UJPNmJn', 'BDFLII8XNT', 'edqSicgzzMULJtnF3clv', '1', '5', '30000', '150000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `total_price`, `status`) VALUES ('rN4r5ut67feQXLf', 'BDFLII8XNT', '', '', '', '0.00', '0.00', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `total_price`, `status`) VALUES ('MVAosXqQOmaKvo9', 'BDFLII8XNT', '', '', '', '0.00', '0.00', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `total_price`, `status`) VALUES ('svjhvL7zng5ELtB', 'BDFLII8XNT', '', '', '', '0.00', '0.00', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `total_price`, `status`) VALUES ('vRYwNIlN2wwaiK', 'BDFLII8XNT', '', '', '', '0.00', '0.00', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `invoice_no`, `description`, `payment_type`, `cheque_no`, `amount`, `date`, `status`) VALUES ('dMovyu0iWw6APfQEBoYM', 'jk9pOI0Ftkjc56', 'ZBIBMKZLSS', NULL, ' ', '1', '', '20000', '2013-11-05', 1);
+INSERT INTO `expence_add` (`expence_id`, `date`, `expence_title`, `description`, `amount`, `status`) VALUES ('VbpU9oa1lxJljT8', '2013-11-05', 'Tea', 'djhgndk', '100', 1);
+INSERT INTO `daily_banking_add` (`banking_id`, `date`, `bank_id`, `deposit_type`, `transaction_type`, `description`, `amount`, `status`) VALUES ('ytRZNYCn9amN1Kd', '2013-11-05', 'zVL76kneR4I6WU4GHcnX', 'cheque', 'deposit', 'hgj', '400000', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('bc4aWE9mZ8wfNzphw5er', '4646786578', 'GrpzzgpJSVumkTuMRQBZ', '480000', '2013-11-05', '  ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('x4jbUBwv5AbGsEZ', 'bc4aWE9mZ8wfNzphw5er', 'mIgciPBHV8tjDffwVlpN', '2400', '200', '480000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('bU6CPwyIetZEnP8', 'bc4aWE9mZ8wfNzphw5er', '', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `invoice_no`, `description`, `payment_type`, `cheque_no`, `amount`, `date`, `status`) VALUES ('ro6LVB2SzqoBhIXjUTnp', 'jk9pOI0Ftkjc56', 'DUHG3WO22M', NULL, 'Previous Balance', '1', '', '-50000', '2013-11-05', 1);

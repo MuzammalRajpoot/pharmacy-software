@@ -1,0 +1,576 @@
+
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707001510', '2', '9AL2342M15VZRI6WKSDR', '2233000', '2015-11-06', '11-6-15 er porer hihab . 146-15 theke noton hisav soro ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707001510', '2', '9AL2342M15VZRI6WKSDR', '2233000', '2015-11-06', '11-6-15 er porer hihab . 146-15 theke noton hisav soro ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('UWM9p7AsUbdQIS5', '20150707001510', 'hBnPYhxJhElJK03bGchi', '40', '285', '11400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('FKLlx4n3szs87He', '20150707001510', 'xUPEMyWcXkrJcRGkSPEF', '2500', '220', '550000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('7a2JYgFZPZ2sp0A', '20150707001510', 'H4nQe0ZOqcEWsgW7Vd5Q', '480', '235', '112800', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('jEKvp9oU2XIkVFr', '20150707001510', 'p1rHGqEf0Ws0X05ZKH0D', '900', '280', '252000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('yCHqNgNR7brxJXw', '20150707001510', 'TFimqpVw1GNgNlvzwnAU', '500', '280', '140000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('K71TsgUXzLu9vFE', '20150707001510', 'bB4K6loWx2aP4BLwtcfJ', '48', '500', '24000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('c5GkkSHwkDOR1Yp', '20150707001510', 'W02xCKyTnZnz9JsSZlu9', '540', '275', '148500', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('nimd4VAMr1YcyKh', '20150707001510', 'Lti657rkTYgLAoMvnp0', '240', '330', '79200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('4nb0MBSVy3YDKPc', '20150707001510', '1Fw2Q8eVJDcmE3yyKYfK', '160', '235', '37600', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('z3BbW6wWIeNh7Bs', '20150707001510', 'b2KaPBuvoFZUfxx80yu8', '30', '360', '10800', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('d5T65i8M4wFR1Qh', '20150707001510', '6ruUW94Nrzw4dSalBAsP', '60', '250', '15000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('SGZUiwOVIXyT6uX', '20150707001510', 'LGO6MtokKiKRd52hyG2S', '120', '310', '37200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('nOS9KNhHZb5fsuw', '20150707001510', 'XCXV8OWg0tFw4FpwBT3h', '120', '650', '78000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('QC3pWabluk0j66V', '20150707001510', 'vE8tOMf55PqItKFsZAnt', '50', '240', '12000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('SiilhtxE1MfvtOf', '20150707001510', 'C9jugTNxqgOv4yyrOjwx', '30', '270', '8100', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('feiXK6ymgjMgIIb', '20150707001510', 'KGubfU8KPnteRdr18xdm', '120', '350', '42000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('cb0BChu1mlEIXxX', '20150707001510', 'bAR670ghQGNLP07UvzY2', '120', '290', '34800', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('3U2brCWfp3F3YMB', '20150707001510', 'VwieyUSr7JuvvWztwI7B', '200', '100', '20000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('1qdzsgXdX0EbHbP', '20150707001510', 'Lr3tOqNk1bs3E47Cthf0', '600', '85', '51000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('eViWvQZIvEB27ZF', '20150707001510', 'kcI4O2NaVl2y4U2aZuXo', '160', '80', '12800', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('9PvbFe8c8VcCwjd', '20150707001510', 'px1gZNPyQkhgOUqNakAw', '12', '1000', '12000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('BEykak1zsm5td1J', '20150707001510', 'FiZq3qpFcr15vgNUcH0J', '440', '225', '99000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('izZVQfyM8wiayV0', '20150707001510', 'hJsIwGT16dcTMacN7rpt', '24', '480', '11520', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('SWDG7erwVZZOI3F', '20150707001510', '6hv8vev2o0oJDG6xznfK', '8', '2800', '22400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('Sb5rvKNkYKW8kLR', '20150707001510', 'rkM0KNjbS37zj34juDvq', '72', '290', '20880', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('kdnokkJRXdrwr1o', '20150707001510', 'c7AIUMNNMluRYAyfPpV2', '200', '385', '77000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('wIFqz22CbPNyNx0', '20150707001510', 'QDwrbdBECYwvBHlRfE36', '250', '415', '103750', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('eYdICEsLWFoD3W4', '20150707001510', 'y9d8FPt27wP5UvyOSiwL', '6', '2450', '14700', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('gICmz3eq576HvI5', '20150707001510', 'FefLk5TNxAwzrqX7TS9b', '100', '600', '60000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('vmSOuTUdhpjNtbi', '20150707001510', 'lyFIvch4DdtEWV6pxXGn', '40', '410', '16400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('n9qpkghFNcBIjwQ', '20150707001510', 'LyBAag0PRgTDqhAp50Y6', '40', '400', '16000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('eh4xwnJFHqvq3eH', '20150707001510', '1yp6aziuDrmTgfJo181d', '120', '400', '48000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('aHFHxqnTv1xx9Xj', '20150707001510', 'rKHMxbbcLxPgz5HHlJIg', '60', '200', '12000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('O3HHp5vz03fvjYP', '20150707001510', 'eTNgrfLm4F9l2Ge7FsK1', '30', '385', '11550', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('qzXv8LckgMbVBZs', '20150707001510', 'z097W3pbARc4u8vxm6EJ', '60', '250', '15000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('lokswQmhFmalX00', '20150707001510', 'ZzMNdxpFuV8b2ayQaSko', '6', '2600', '15600', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '950', `supplier_price` = '950', `cartoon_quantity` = '2', `product_model` = 'DC_SOLAR_FAN-11_W', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'aXvYrv3YtogojmrBbMPU';
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '950', `supplier_price` = '950', `cartoon_quantity` = '2', `product_model` = 'DC SOLAR FAN-11W', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'aXvYrv3YtogojmrBbMPU';
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707005242', '3', '9AL2342M15VZRI6WKSDR', '398140', '2015-11-06', '11-6-15 er porer hisab.14-615 theke soro ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707005242', '3', '9AL2342M15VZRI6WKSDR', '398140', '2015-11-06', '11-6-15 er porer hisab.14-615 theke soro ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('moxdemcPdGKUorM', '20150707005242', 'HV1xaQu22UvYRobOSEh4', '50', '310', '15500', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('oJEUSQZkVNTmAlu', '20150707005242', 'a2xmRhRT8nVyySkU9S2K', '48', '980', '47040', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('gMZVr47KJZQVt6B', '20150707005242', 'mgh6IEKUQG9Qy9zPCYrq', '600', '235', '141000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('7kKB5cRVDlgZMgA', '20150707005242', 'LqoXR1GcGcq6kZYbevNd', '60', '620', '37200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('9DOXY6RVFauWueS', '20150707005242', 'ZNrkk1p2qVqOeZuoyLC5', '20', '560', '11200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('wa37bxZsHcUo2hK', '20150707005242', 'ZzMNdxpFuV8b2ayQaSko', '51', '2600', '132600', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('3fOG4mBK8HksdTN', '20150707005242', 'NMeVfMLuxNY6SWn41VLN', '16', '850', '13600', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '950', `supplier_price` = '950', `cartoon_quantity` = '2', `product_model` = 'DC_SOLAR_FAN_11W', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'aXvYrv3YtogojmrBbMPU';
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '950', `supplier_price` = '950', `cartoon_quantity` = '2', `product_model` = 'DC_SOLAR_FAN_11W', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'aXvYrv3YtogojmrBbMPU';
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '1000', `supplier_price` = '1000', `cartoon_quantity` = '4', `product_model` = 'DC_SOLAR_FAN_13W', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'px1gZNPyQkhgOUqNakAw';
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `supplier_id` = '9AL2342M15VZRI6WKSDR', `price` = '480', `supplier_price` = '480', `cartoon_quantity` = '12', `product_model` = 'DC_CAR_FAN_3BLD', `product_details` = 'FAN', `status` = 1 WHERE `product_id` =  'hJsIwGT16dcTMacN7rpt';
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707010155', ' ', '9AL2342M15VZRI6WKSDR', '1714400', '2015-15-06', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707010155', ' ', '9AL2342M15VZRI6WKSDR', '1714400', '2015-15-06', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('dRpY1vxOieePA4W', '20150707010155', 'Oa4mqMl4qro2eBGcxuqY', '100', '350', '35000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('12wPoNqomMYdN9P', '20150707010155', 'FnU2j9F8c7NvEf11hdfF', '100', '380', '38000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('mbgSzXDnllHG2IA', '20150707010155', 'sJq5EDoBlcCevMfWNfuM', '100', '460', '46000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('O93AOgN5LyHkSVi', '20150707010155', 'zJv2c05EkvlaBUm4GQxy', '240', '560', '134400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('i80EPycUcD5kKvs', '20150707010155', 'iSDzneeGTIR7pgjkctav', '600', '490', '294000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('KArCA6jM1uC9TVU', '20150707010155', 'gqP3mTFZ0y87M5haRkKr', '1200', '210', '252000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('43Q38grZzJdttnf', '20150707010155', 'LGO6MtokKiKRd52hyG2S', '600', '310', '186000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('cygK2gGat7Lw5gG', '20150707010155', 'Lti657rkTYgLAoMvnp0', '600', '330', '198000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('Ma0eS7AAW1Kzj5d', '20150707010155', 'O8UX6KFZLtNyzL7pR7wZ', '400', '320', '128000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('FXRlhJInj3kvoeS', '20150707010155', 'K2Dv4vUIXHb3Md7jyquD', '1000', '100', '100000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('vssuMBrOCDEN4oG', '20150707010155', 'E5zkFxpRT9EAzLvA6cOv', '600', '80', '48000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('WudoTBxeoXXPJBt', '20150707010155', 'zTyroFMbJ20OVR8N2Ck3', '800', '75', '60000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('cxcKiqNP5OU9bMn', '20150707010155', 'GeGk2DAIlWJ6BdpqbLgy', '600', '200', '120000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('ikXCOtDCMsak8jm', '20150707010155', '6ruUW94Nrzw4dSalBAsP', '300', '250', '75000', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707010438', '301', '9AL2342M15VZRI6WKSDR', '284000', '2015-17-06', ' d-031', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707010438', '301', '9AL2342M15VZRI6WKSDR', '284000', '2015-17-06', ' d-031', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('nTshR3nLiZ4OT0t', '20150707010438', 'sJq5EDoBlcCevMfWNfuM', '300', '460', '138000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('aIFS7NJqv0diPeU', '20150707010438', 'Oa4mqMl4qro2eBGcxuqY', '200', '350', '70000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('fHoOp7GUHpsA4DA', '20150707010438', 'FnU2j9F8c7NvEf11hdfF', '200', '380', '76000', 1);
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707012138', '1180', '9AL2342M15VZRI6WKSDR', '2866000', '2015-18-06', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707012138', '1180', '9AL2342M15VZRI6WKSDR', '2866000', '2015-18-06', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('QmXdZuKntcote2e', '20150707012138', 'xUPEMyWcXkrJcRGkSPEF', '7500', '220', '1650000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('m5MFbrp5RTXtTAG', '20150707012138', '77LeJpTebNJ0VuS4D07m', '3000', '360', '1080000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('ZRtwuIh6wQXaA3S', '20150707012138', 'OlbhlxMDNqFBkk42pFse', '400', '340', '136000', 1);
+UPDATE `product_purchase_details` SET `product_id` = 'qVggr6ph8mUv4cVXCTpu', `quantity` = '1520', `rate` = '275', `total_amount` = '418000' WHERE `purchase_detail_id` =  'HAM2BpTVYso7z5Q';
+UPDATE `product_purchase_details` SET `product_id` = 'H8MHRLUOuOVURvqHT62V', `quantity` = '160', `rate` = '310', `total_amount` = '49600' WHERE `purchase_detail_id` =  'jHVdZ5VGXxamjfx';
+UPDATE `product_purchase_details` SET `product_id` = 'aXvYrv3YtogojmrBbMPU', `quantity` = '20', `rate` = '950', `total_amount` = '19000' WHERE `purchase_detail_id` =  'ZmxmdzSzKqiznYt';
+UPDATE `product_purchase_details` SET `product_id` = 'mgh6IEKUQG9Qy9zPCYrq', `quantity` = '600', `rate` = '235', `total_amount` = '141000' WHERE `purchase_detail_id` =  '481ObPJvWgjwIJS';
+UPDATE `product_purchase_details` SET `product_id` = 'awoNEvM7NOwEdEXhtGBk', `quantity` = '480', `rate` = '107', `total_amount` = '51360' WHERE `purchase_detail_id` =  '6i5tLYjeOuLwjyK';
+UPDATE `product_purchase_details` SET `product_id` = 'GAfzBvx1xp1pUcITAkwE', `quantity` = '120', `rate` = '90', `total_amount` = '10800' WHERE `purchase_detail_id` =  'SsIJ7kZFWvl6huF';
+UPDATE `product_purchase_details` SET `product_id` = '9hn12purQJkzyhazcebK', `quantity` = '120', `rate` = '85', `total_amount` = '10200' WHERE `purchase_detail_id` =  'zqnuazIAUXueJVS';
+UPDATE `product_purchase_details` SET `product_id` = '7G8UvTUnWfAhoEg0zfCi', `quantity` = '80', `rate` = '195', `total_amount` = '15600' WHERE `purchase_detail_id` =  'VmAdw8ELCa7oWeZ';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '60', `rate` = '210', `total_amount` = '12600' WHERE `purchase_detail_id` =  'bVGFFg5MhMlRsum';
+UPDATE `product_purchase_details` SET `product_id` = 'QUqgkDc0m9OY2xbBmIqA', `quantity` = '80', `rate` = '200', `total_amount` = '16000' WHERE `purchase_detail_id` =  'AFOBjA9nNBDJpZn';
+UPDATE `product_purchase_details` SET `product_id` = 'TLOwqix9WmZGtYGECoUz', `quantity` = '28', `rate` = '500', `total_amount` = '14000' WHERE `purchase_detail_id` =  'F29L7Dr1RPE3gwn';
+UPDATE `product_purchase_details` SET `product_id` = 'nklppwylsdqFGQFEkDvW', `quantity` = '3060', `rate` = '210', `total_amount` = '642600' WHERE `purchase_detail_id` =  'IxtXySYx7ky0ueZ';
+UPDATE `product_purchase_details` SET `product_id` = 'syVZpBpOPV1lW2wrcsZT', `quantity` = '950', `rate` = '290', `total_amount` = '275500' WHERE `purchase_detail_id` =  'XjRWuMZcDqrHjO4';
+UPDATE `product_purchase_details` SET `product_id` = '4nkJVThmdQHlygsKHHVD', `quantity` = '432', `rate` = '370', `total_amount` = '159840' WHERE `purchase_detail_id` =  'NXq6vfOKUKvHKfm';
+UPDATE `product_purchase_details` SET `product_id` = 'jhUQk0BffhCobJv5tcuG', `quantity` = '240', `rate` = '200', `total_amount` = '48000' WHERE `purchase_detail_id` =  'k4N2P7EoZITHQ6W';
+UPDATE `product_purchase_details` SET `product_id` = '7gLTm2pfxtVPMnPpnk84', `quantity` = '200', `rate` = '235', `total_amount` = '47000' WHERE `purchase_detail_id` =  'JHu1DfWSqpcbxn7';
+UPDATE `product_purchase_details` SET `product_id` = '4s9rvnDMkbYHUkcuIQBS', `quantity` = '128', `rate` = '550', `total_amount` = '70400' WHERE `purchase_detail_id` =  'ZMzlFEiKt9SFGiA';
+UPDATE `product_purchase_details` SET `product_id` = 'UxDnjv3aDx4urBTpde8Q', `quantity` = '390', `rate` = '415', `total_amount` = '161850' WHERE `purchase_detail_id` =  'csIMjNt6eZk71Yk';
+UPDATE `product_purchase_details` SET `product_id` = 'mypmLBg2MOoRaOwS3Zha', `quantity` = '475', `rate` = '570', `total_amount` = '270750' WHERE `purchase_detail_id` =  'wyyma4r9Da8TgD5';
+UPDATE `product_purchase_details` SET `product_id` = '5yoA3yV57iw2h8JmYzP4', `quantity` = '390', `rate` = '445', `total_amount` = '173550' WHERE `purchase_detail_id` =  'hgmqtL3dHW3rUsG';
+UPDATE `product_purchase_details` SET `product_id` = 'a2xmRhRT8nVyySkU9S2K', `quantity` = '66', `rate` = '980', `total_amount` = '64680' WHERE `purchase_detail_id` =  '5f5sHVlyUpPRBwT';
+UPDATE `product_purchase_details` SET `product_id` = 'lD4Bo0KjvU0xUyIbZHmW', `quantity` = '864', `rate` = '510', `total_amount` = '440640' WHERE `purchase_detail_id` =  '6U2i0lt3F1P8iip';
+UPDATE `product_purchase_details` SET `product_id` = 'Xma2fZi1mh8YJ2qwRQbZ', `quantity` = '50', `rate` = '220', `total_amount` = '11000' WHERE `purchase_detail_id` =  'odLjLS5wHObWfdI';
+UPDATE `product_purchase_details` SET `product_id` = 'xRQOQKQiWqdU0LBQrFbF', `quantity` = '240', `rate` = '200', `total_amount` = '48000' WHERE `purchase_detail_id` =  '1Ycs7cVqVZgkWFJ';
+UPDATE `product_purchase_details` SET `product_id` = 't6bhbO89cZCRhRLbYdb2', `quantity` = '60', `rate` = '380', `total_amount` = '22800' WHERE `purchase_detail_id` =  'CumOUxgOkncBA8e';
+UPDATE `product_purchase_details` SET `product_id` = 'hBnPYhxJhElJK03bGchi', `quantity` = '320', `rate` = '285', `total_amount` = '91200' WHERE `purchase_detail_id` =  'Jy4mgzE2fZRC0oI';
+UPDATE `product_purchase_details` SET `product_id` = 'aT4G9sdV2HufytRQVnug', `quantity` = '240', `rate` = '445', `total_amount` = '106800' WHERE `purchase_detail_id` =  'Ir3u6NhbaIF3KG1';
+UPDATE `product_purchase_details` SET `product_id` = 'ubqGRoxgvPE7v2Bqibtl', `quantity` = '510', `rate` = '445', `total_amount` = '226950' WHERE `purchase_detail_id` =  'pQpi3NY7D5WV7W9';
+UPDATE `product_purchase_details` SET `product_id` = 'PVhzW7s1ffhLUTYAuBUg', `quantity` = '780', `rate` = '510', `total_amount` = '397800' WHERE `purchase_detail_id` =  'Eeq8PlJxCk6IdFP';
+UPDATE `product_purchase_details` SET `product_id` = 'taVz5XisBgZf3IWO8Th4', `quantity` = '100', `rate` = '280', `total_amount` = '28000' WHERE `purchase_detail_id` =  'Uuf0UXLrVOlrjiD';
+UPDATE `product_purchase_details` SET `product_id` = 'Ex6AwsIRwtWIPgPxXLar', `quantity` = '180', `rate` = '350', `total_amount` = '63000' WHERE `purchase_detail_id` =  'iniOkxzul3VhBxm';
+UPDATE `product_purchase_details` SET `product_id` = 'JcngcRjs2Hrgmdk7zUuA', `quantity` = '800', `rate` = '260', `total_amount` = '208000' WHERE `purchase_detail_id` =  'RHXwGqKRXfg0NGh';
+UPDATE `product_purchase_details` SET `product_id` = 'amEusPHmQQIpKMvABim6', `quantity` = '450', `rate` = '200', `total_amount` = '90000' WHERE `purchase_detail_id` =  'QoLy4vmtfMm1unn';
+UPDATE `product_purchase_details` SET `product_id` = '77LeJpTebNJ0VuS4D07m', `quantity` = '820', `rate` = '360', `total_amount` = '295200' WHERE `purchase_detail_id` =  'X6uvr2b3IzXpyjv';
+UPDATE `product_purchase_details` SET `product_id` = 'Oy86AJ3tYixdilZOUlu8', `quantity` = '540', `rate` = '345', `total_amount` = '186300' WHERE `purchase_detail_id` =  'WzahoVUQDzeqpPU';
+UPDATE `product_purchase_details` SET `product_id` = 'B5ngNQRihaQ1JHJbrgsE', `quantity` = '400', `rate` = '95', `total_amount` = '38000' WHERE `purchase_detail_id` =  'SnPDY751yDpLtev';
+UPDATE `product_purchase_details` SET `product_id` = 'HV1xaQu22UvYRobOSEh4', `quantity` = '100', `rate` = '310', `total_amount` = '31000' WHERE `purchase_detail_id` =  'e2l6YQPsgUhB0MQ';
+UPDATE `product_purchase_details` SET `product_id` = 'CgtLYRXxpePPcsNvcAqS', `quantity` = '690', `rate` = '430', `total_amount` = '296700' WHERE `purchase_detail_id` =  'Uf5ijSfeIUhyfRS';
+UPDATE `product_purchase_details` SET `product_id` = 'LqoXR1GcGcq6kZYbevNd', `quantity` = '10', `rate` = '620', `total_amount` = '6200' WHERE `purchase_detail_id` =  'RwJ4riJ8QqQyrQB';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('NOQWWND9UO', 'Dally Office Entertentment', 'outflow_XQBDGM1EHW', '1');
+CREATE TABLE IF NOT EXISTS outflow_XQBDGM1EHW (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('WYAC2DI1Z1', 'Leber Bill', 'outflow_76R2HUUJ97', '1');
+CREATE TABLE IF NOT EXISTS outflow_76R2HUUJ97 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('6NFE52RTKE', 'Store Ren t/ godham bada', 'outflow_O8CHQARZAR', '1');
+CREATE TABLE IF NOT EXISTS outflow_O8CHQARZAR (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('92A96IOQWT', 'Omar Faroque Self', 'outflow_5G3CW2HLZA', '1');
+CREATE TABLE IF NOT EXISTS outflow_5G3CW2HLZA (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('C4CY6SWF8G', 'Homayun Kabir /brother', 'outflow_G98K6YRPUP', '1');
+CREATE TABLE IF NOT EXISTS outflow_G98K6YRPUP (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('68O7UDHNQT', 'Md.Sohid-Niha office', 'outflow_O3W5HY27F8', '1');
+CREATE TABLE IF NOT EXISTS outflow_O3W5HY27F8 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('MDLI24Z4GV', 'Md. Amran(mama)-Niha office', 'outflow_SDWUFC1X3C', '1');
+CREATE TABLE IF NOT EXISTS outflow_SDWUFC1X3C (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('3NYR5K5PGY', 'Rent of Basa /basa bada', 'outflow_U5DXF8XVTV', '1');
+CREATE TABLE IF NOT EXISTS outflow_U5DXF8XVTV (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('E4TGZHXMAJ', 'Dally Bazar Bill', 'outflow_PXBVHLPJ9D', '1');
+CREATE TABLE IF NOT EXISTS outflow_PXBVHLPJ9D (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '300', `rate` = '460', `total_amount` = '138000' WHERE `purchase_detail_id` =  'nTshR3nLiZ4OT0t';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '200', `rate` = '350', `total_amount` = '70000' WHERE `purchase_detail_id` =  'aIFS7NJqv0diPeU';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '200', `rate` = '380', `total_amount` = '76000' WHERE `purchase_detail_id` =  'fHoOp7GUHpsA4DA';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '300', `rate` = '460', `total_amount` = '138000' WHERE `purchase_detail_id` =  'nTshR3nLiZ4OT0t';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '200', `rate` = '350', `total_amount` = '70000' WHERE `purchase_detail_id` =  'aIFS7NJqv0diPeU';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '200', `rate` = '380', `total_amount` = '76000' WHERE `purchase_detail_id` =  'fHoOp7GUHpsA4DA';
+UPDATE `product_purchase_details` SET `product_id` = 'xUPEMyWcXkrJcRGkSPEF', `quantity` = '7500', `rate` = '220', `total_amount` = '1650000' WHERE `purchase_detail_id` =  'QmXdZuKntcote2e';
+UPDATE `product_purchase_details` SET `product_id` = '77LeJpTebNJ0VuS4D07m', `quantity` = '3000', `rate` = '360', `total_amount` = '1080000' WHERE `purchase_detail_id` =  'm5MFbrp5RTXtTAG';
+UPDATE `product_purchase_details` SET `product_id` = 'OlbhlxMDNqFBkk42pFse', `quantity` = '400', `rate` = '340', `total_amount` = '136000' WHERE `purchase_detail_id` =  'ZRtwuIh6wQXaA3S';
+UPDATE `product_purchase_details` SET `product_id` = 'xUPEMyWcXkrJcRGkSPEF', `quantity` = '7500', `rate` = '220', `total_amount` = '1650000' WHERE `purchase_detail_id` =  'QmXdZuKntcote2e';
+UPDATE `product_purchase_details` SET `product_id` = '77LeJpTebNJ0VuS4D07m', `quantity` = '3000', `rate` = '360', `total_amount` = '1080000' WHERE `purchase_detail_id` =  'm5MFbrp5RTXtTAG';
+UPDATE `product_purchase_details` SET `product_id` = 'OlbhlxMDNqFBkk42pFse', `quantity` = '400', `rate` = '340', `total_amount` = '136000' WHERE `purchase_detail_id` =  'ZRtwuIh6wQXaA3S';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '100', `rate` = '350', `total_amount` = '35000' WHERE `purchase_detail_id` =  'dRpY1vxOieePA4W';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '100', `rate` = '380', `total_amount` = '38000' WHERE `purchase_detail_id` =  '12wPoNqomMYdN9P';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '100', `rate` = '460', `total_amount` = '46000' WHERE `purchase_detail_id` =  'mbgSzXDnllHG2IA';
+UPDATE `product_purchase_details` SET `product_id` = 'zJv2c05EkvlaBUm4GQxy', `quantity` = '240', `rate` = '560', `total_amount` = '134400' WHERE `purchase_detail_id` =  'O93AOgN5LyHkSVi';
+UPDATE `product_purchase_details` SET `product_id` = 'iSDzneeGTIR7pgjkctav', `quantity` = '600', `rate` = '490', `total_amount` = '294000' WHERE `purchase_detail_id` =  'i80EPycUcD5kKvs';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '1200', `rate` = '210', `total_amount` = '252000' WHERE `purchase_detail_id` =  'KArCA6jM1uC9TVU';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '600', `rate` = '310', `total_amount` = '186000' WHERE `purchase_detail_id` =  '43Q38grZzJdttnf';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '600', `rate` = '330', `total_amount` = '198000' WHERE `purchase_detail_id` =  'cygK2gGat7Lw5gG';
+UPDATE `product_purchase_details` SET `product_id` = 'O8UX6KFZLtNyzL7pR7wZ', `quantity` = '400', `rate` = '320', `total_amount` = '128000' WHERE `purchase_detail_id` =  'Ma0eS7AAW1Kzj5d';
+UPDATE `product_purchase_details` SET `product_id` = 'K2Dv4vUIXHb3Md7jyquD', `quantity` = '1000', `rate` = '100', `total_amount` = '100000' WHERE `purchase_detail_id` =  'FXRlhJInj3kvoeS';
+UPDATE `product_purchase_details` SET `product_id` = 'E5zkFxpRT9EAzLvA6cOv', `quantity` = '600', `rate` = '80', `total_amount` = '48000' WHERE `purchase_detail_id` =  'vssuMBrOCDEN4oG';
+UPDATE `product_purchase_details` SET `product_id` = 'zTyroFMbJ20OVR8N2Ck3', `quantity` = '800', `rate` = '75', `total_amount` = '60000' WHERE `purchase_detail_id` =  'WudoTBxeoXXPJBt';
+UPDATE `product_purchase_details` SET `product_id` = 'GeGk2DAIlWJ6BdpqbLgy', `quantity` = '600', `rate` = '200', `total_amount` = '120000' WHERE `purchase_detail_id` =  'cxcKiqNP5OU9bMn';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '300', `rate` = '250', `total_amount` = '75000' WHERE `purchase_detail_id` =  'ikXCOtDCMsak8jm';
+UPDATE `product_purchase_details` SET `product_id` = 'sJq5EDoBlcCevMfWNfuM', `quantity` = '300', `rate` = '460', `total_amount` = '138000' WHERE `purchase_detail_id` =  'nTshR3nLiZ4OT0t';
+UPDATE `product_purchase_details` SET `product_id` = 'Oa4mqMl4qro2eBGcxuqY', `quantity` = '200', `rate` = '350', `total_amount` = '70000' WHERE `purchase_detail_id` =  'aIFS7NJqv0diPeU';
+UPDATE `product_purchase_details` SET `product_id` = 'FnU2j9F8c7NvEf11hdfF', `quantity` = '200', `rate` = '380', `total_amount` = '76000' WHERE `purchase_detail_id` =  'fHoOp7GUHpsA4DA';
+UPDATE `product_purchase_details` SET `product_id` = 'qVggr6ph8mUv4cVXCTpu', `quantity` = '1520', `rate` = '275', `total_amount` = '418000' WHERE `purchase_detail_id` =  'HAM2BpTVYso7z5Q';
+UPDATE `product_purchase_details` SET `product_id` = 'H8MHRLUOuOVURvqHT62V', `quantity` = '160', `rate` = '310', `total_amount` = '49600' WHERE `purchase_detail_id` =  'jHVdZ5VGXxamjfx';
+UPDATE `product_purchase_details` SET `product_id` = 'aXvYrv3YtogojmrBbMPU', `quantity` = '20', `rate` = '950', `total_amount` = '19000' WHERE `purchase_detail_id` =  'ZmxmdzSzKqiznYt';
+UPDATE `product_purchase_details` SET `product_id` = 'mgh6IEKUQG9Qy9zPCYrq', `quantity` = '600', `rate` = '235', `total_amount` = '141000' WHERE `purchase_detail_id` =  '481ObPJvWgjwIJS';
+UPDATE `product_purchase_details` SET `product_id` = 'awoNEvM7NOwEdEXhtGBk', `quantity` = '480', `rate` = '107', `total_amount` = '51360' WHERE `purchase_detail_id` =  '6i5tLYjeOuLwjyK';
+UPDATE `product_purchase_details` SET `product_id` = 'GAfzBvx1xp1pUcITAkwE', `quantity` = '120', `rate` = '90', `total_amount` = '10800' WHERE `purchase_detail_id` =  'SsIJ7kZFWvl6huF';
+UPDATE `product_purchase_details` SET `product_id` = '9hn12purQJkzyhazcebK', `quantity` = '120', `rate` = '85', `total_amount` = '10200' WHERE `purchase_detail_id` =  'zqnuazIAUXueJVS';
+UPDATE `product_purchase_details` SET `product_id` = '7G8UvTUnWfAhoEg0zfCi', `quantity` = '80', `rate` = '195', `total_amount` = '15600' WHERE `purchase_detail_id` =  'VmAdw8ELCa7oWeZ';
+UPDATE `product_purchase_details` SET `product_id` = 'gqP3mTFZ0y87M5haRkKr', `quantity` = '60', `rate` = '210', `total_amount` = '12600' WHERE `purchase_detail_id` =  'bVGFFg5MhMlRsum';
+UPDATE `product_purchase_details` SET `product_id` = 'QUqgkDc0m9OY2xbBmIqA', `quantity` = '80', `rate` = '200', `total_amount` = '16000' WHERE `purchase_detail_id` =  'AFOBjA9nNBDJpZn';
+UPDATE `product_purchase_details` SET `product_id` = 'TLOwqix9WmZGtYGECoUz', `quantity` = '28', `rate` = '500', `total_amount` = '14000' WHERE `purchase_detail_id` =  'F29L7Dr1RPE3gwn';
+UPDATE `product_purchase_details` SET `product_id` = 'nklppwylsdqFGQFEkDvW', `quantity` = '3060', `rate` = '210', `total_amount` = '642600' WHERE `purchase_detail_id` =  'IxtXySYx7ky0ueZ';
+UPDATE `product_purchase_details` SET `product_id` = 'syVZpBpOPV1lW2wrcsZT', `quantity` = '950', `rate` = '290', `total_amount` = '275500' WHERE `purchase_detail_id` =  'XjRWuMZcDqrHjO4';
+UPDATE `product_purchase_details` SET `product_id` = '4nkJVThmdQHlygsKHHVD', `quantity` = '432', `rate` = '370', `total_amount` = '159840' WHERE `purchase_detail_id` =  'NXq6vfOKUKvHKfm';
+UPDATE `product_purchase_details` SET `product_id` = 'jhUQk0BffhCobJv5tcuG', `quantity` = '240', `rate` = '200', `total_amount` = '48000' WHERE `purchase_detail_id` =  'k4N2P7EoZITHQ6W';
+UPDATE `product_purchase_details` SET `product_id` = '7gLTm2pfxtVPMnPpnk84', `quantity` = '200', `rate` = '235', `total_amount` = '47000' WHERE `purchase_detail_id` =  'JHu1DfWSqpcbxn7';
+UPDATE `product_purchase_details` SET `product_id` = '4s9rvnDMkbYHUkcuIQBS', `quantity` = '128', `rate` = '550', `total_amount` = '70400' WHERE `purchase_detail_id` =  'ZMzlFEiKt9SFGiA';
+UPDATE `product_purchase_details` SET `product_id` = 'UxDnjv3aDx4urBTpde8Q', `quantity` = '390', `rate` = '415', `total_amount` = '161850' WHERE `purchase_detail_id` =  'csIMjNt6eZk71Yk';
+UPDATE `product_purchase_details` SET `product_id` = 'mypmLBg2MOoRaOwS3Zha', `quantity` = '475', `rate` = '570', `total_amount` = '270750' WHERE `purchase_detail_id` =  'wyyma4r9Da8TgD5';
+UPDATE `product_purchase_details` SET `product_id` = '5yoA3yV57iw2h8JmYzP4', `quantity` = '390', `rate` = '445', `total_amount` = '173550' WHERE `purchase_detail_id` =  'hgmqtL3dHW3rUsG';
+UPDATE `product_purchase_details` SET `product_id` = 'a2xmRhRT8nVyySkU9S2K', `quantity` = '66', `rate` = '980', `total_amount` = '64680' WHERE `purchase_detail_id` =  '5f5sHVlyUpPRBwT';
+UPDATE `product_purchase_details` SET `product_id` = 'lD4Bo0KjvU0xUyIbZHmW', `quantity` = '864', `rate` = '510', `total_amount` = '440640' WHERE `purchase_detail_id` =  '6U2i0lt3F1P8iip';
+UPDATE `product_purchase_details` SET `product_id` = 'Xma2fZi1mh8YJ2qwRQbZ', `quantity` = '50', `rate` = '220', `total_amount` = '11000' WHERE `purchase_detail_id` =  'odLjLS5wHObWfdI';
+UPDATE `product_purchase_details` SET `product_id` = 'xRQOQKQiWqdU0LBQrFbF', `quantity` = '240', `rate` = '200', `total_amount` = '48000' WHERE `purchase_detail_id` =  '1Ycs7cVqVZgkWFJ';
+UPDATE `product_purchase_details` SET `product_id` = 't6bhbO89cZCRhRLbYdb2', `quantity` = '60', `rate` = '380', `total_amount` = '22800' WHERE `purchase_detail_id` =  'CumOUxgOkncBA8e';
+UPDATE `product_purchase_details` SET `product_id` = 'hBnPYhxJhElJK03bGchi', `quantity` = '320', `rate` = '285', `total_amount` = '91200' WHERE `purchase_detail_id` =  'Jy4mgzE2fZRC0oI';
+UPDATE `product_purchase_details` SET `product_id` = 'aT4G9sdV2HufytRQVnug', `quantity` = '240', `rate` = '445', `total_amount` = '106800' WHERE `purchase_detail_id` =  'Ir3u6NhbaIF3KG1';
+UPDATE `product_purchase_details` SET `product_id` = 'ubqGRoxgvPE7v2Bqibtl', `quantity` = '510', `rate` = '445', `total_amount` = '226950' WHERE `purchase_detail_id` =  'pQpi3NY7D5WV7W9';
+UPDATE `product_purchase_details` SET `product_id` = 'PVhzW7s1ffhLUTYAuBUg', `quantity` = '780', `rate` = '510', `total_amount` = '397800' WHERE `purchase_detail_id` =  'Eeq8PlJxCk6IdFP';
+UPDATE `product_purchase_details` SET `product_id` = 'taVz5XisBgZf3IWO8Th4', `quantity` = '100', `rate` = '280', `total_amount` = '28000' WHERE `purchase_detail_id` =  'Uuf0UXLrVOlrjiD';
+UPDATE `product_purchase_details` SET `product_id` = 'Ex6AwsIRwtWIPgPxXLar', `quantity` = '180', `rate` = '350', `total_amount` = '63000' WHERE `purchase_detail_id` =  'iniOkxzul3VhBxm';
+UPDATE `product_purchase_details` SET `product_id` = 'JcngcRjs2Hrgmdk7zUuA', `quantity` = '800', `rate` = '260', `total_amount` = '208000' WHERE `purchase_detail_id` =  'RHXwGqKRXfg0NGh';
+UPDATE `product_purchase_details` SET `product_id` = 'amEusPHmQQIpKMvABim6', `quantity` = '450', `rate` = '200', `total_amount` = '90000' WHERE `purchase_detail_id` =  'QoLy4vmtfMm1unn';
+UPDATE `product_purchase_details` SET `product_id` = '77LeJpTebNJ0VuS4D07m', `quantity` = '820', `rate` = '360', `total_amount` = '295200' WHERE `purchase_detail_id` =  'X6uvr2b3IzXpyjv';
+UPDATE `product_purchase_details` SET `product_id` = 'Oy86AJ3tYixdilZOUlu8', `quantity` = '540', `rate` = '345', `total_amount` = '186300' WHERE `purchase_detail_id` =  'WzahoVUQDzeqpPU';
+UPDATE `product_purchase_details` SET `product_id` = 'B5ngNQRihaQ1JHJbrgsE', `quantity` = '400', `rate` = '95', `total_amount` = '38000' WHERE `purchase_detail_id` =  'SnPDY751yDpLtev';
+UPDATE `product_purchase_details` SET `product_id` = 'HV1xaQu22UvYRobOSEh4', `quantity` = '100', `rate` = '310', `total_amount` = '31000' WHERE `purchase_detail_id` =  'e2l6YQPsgUhB0MQ';
+UPDATE `product_purchase_details` SET `product_id` = 'CgtLYRXxpePPcsNvcAqS', `quantity` = '690', `rate` = '430', `total_amount` = '296700' WHERE `purchase_detail_id` =  'Uf5ijSfeIUhyfRS';
+UPDATE `product_purchase_details` SET `product_id` = 'LqoXR1GcGcq6kZYbevNd', `quantity` = '10', `rate` = '620', `total_amount` = '6200' WHERE `purchase_detail_id` =  'RwJ4riJ8QqQyrQB';
+UPDATE `product_purchase_details` SET `product_id` = 'hBnPYhxJhElJK03bGchi', `quantity` = '40', `rate` = '285', `total_amount` = '11400' WHERE `purchase_detail_id` =  'UWM9p7AsUbdQIS5';
+UPDATE `product_purchase_details` SET `product_id` = 'xUPEMyWcXkrJcRGkSPEF', `quantity` = '2500', `rate` = '220', `total_amount` = '550000' WHERE `purchase_detail_id` =  'FKLlx4n3szs87He';
+UPDATE `product_purchase_details` SET `product_id` = 'H4nQe0ZOqcEWsgW7Vd5Q', `quantity` = '480', `rate` = '235', `total_amount` = '112800' WHERE `purchase_detail_id` =  '7a2JYgFZPZ2sp0A';
+UPDATE `product_purchase_details` SET `product_id` = 'p1rHGqEf0Ws0X05ZKH0D', `quantity` = '900', `rate` = '280', `total_amount` = '252000' WHERE `purchase_detail_id` =  'jEKvp9oU2XIkVFr';
+UPDATE `product_purchase_details` SET `product_id` = 'TFimqpVw1GNgNlvzwnAU', `quantity` = '500', `rate` = '280', `total_amount` = '140000' WHERE `purchase_detail_id` =  'yCHqNgNR7brxJXw';
+UPDATE `product_purchase_details` SET `product_id` = 'bB4K6loWx2aP4BLwtcfJ', `quantity` = '48', `rate` = '500', `total_amount` = '24000' WHERE `purchase_detail_id` =  'K71TsgUXzLu9vFE';
+UPDATE `product_purchase_details` SET `product_id` = 'W02xCKyTnZnz9JsSZlu9', `quantity` = '540', `rate` = '275', `total_amount` = '148500' WHERE `purchase_detail_id` =  'c5GkkSHwkDOR1Yp';
+UPDATE `product_purchase_details` SET `product_id` = 'Lti657rkTYgLAoMvnp0', `quantity` = '240', `rate` = '330', `total_amount` = '79200' WHERE `purchase_detail_id` =  'nimd4VAMr1YcyKh';
+UPDATE `product_purchase_details` SET `product_id` = '1Fw2Q8eVJDcmE3yyKYfK', `quantity` = '160', `rate` = '235', `total_amount` = '37600' WHERE `purchase_detail_id` =  '4nb0MBSVy3YDKPc';
+UPDATE `product_purchase_details` SET `product_id` = 'b2KaPBuvoFZUfxx80yu8', `quantity` = '30', `rate` = '360', `total_amount` = '10800' WHERE `purchase_detail_id` =  'z3BbW6wWIeNh7Bs';
+UPDATE `product_purchase_details` SET `product_id` = '6ruUW94Nrzw4dSalBAsP', `quantity` = '60', `rate` = '250', `total_amount` = '15000' WHERE `purchase_detail_id` =  'd5T65i8M4wFR1Qh';
+UPDATE `product_purchase_details` SET `product_id` = 'LGO6MtokKiKRd52hyG2S', `quantity` = '120', `rate` = '310', `total_amount` = '37200' WHERE `purchase_detail_id` =  'SGZUiwOVIXyT6uX';
+UPDATE `product_purchase_details` SET `product_id` = 'XCXV8OWg0tFw4FpwBT3h', `quantity` = '120', `rate` = '650', `total_amount` = '78000' WHERE `purchase_detail_id` =  'nOS9KNhHZb5fsuw';
+UPDATE `product_purchase_details` SET `product_id` = 'vE8tOMf55PqItKFsZAnt', `quantity` = '50', `rate` = '240', `total_amount` = '12000' WHERE `purchase_detail_id` =  'QC3pWabluk0j66V';
+UPDATE `product_purchase_details` SET `product_id` = 'C9jugTNxqgOv4yyrOjwx', `quantity` = '30', `rate` = '270', `total_amount` = '8100' WHERE `purchase_detail_id` =  'SiilhtxE1MfvtOf';
+UPDATE `product_purchase_details` SET `product_id` = 'KGubfU8KPnteRdr18xdm', `quantity` = '120', `rate` = '350', `total_amount` = '42000' WHERE `purchase_detail_id` =  'feiXK6ymgjMgIIb';
+UPDATE `product_purchase_details` SET `product_id` = 'bAR670ghQGNLP07UvzY2', `quantity` = '120', `rate` = '290', `total_amount` = '34800' WHERE `purchase_detail_id` =  'cb0BChu1mlEIXxX';
+UPDATE `product_purchase_details` SET `product_id` = 'VwieyUSr7JuvvWztwI7B', `quantity` = '200', `rate` = '100', `total_amount` = '20000' WHERE `purchase_detail_id` =  '3U2brCWfp3F3YMB';
+UPDATE `product_purchase_details` SET `product_id` = 'Lr3tOqNk1bs3E47Cthf0', `quantity` = '600', `rate` = '85', `total_amount` = '51000' WHERE `purchase_detail_id` =  '1qdzsgXdX0EbHbP';
+UPDATE `product_purchase_details` SET `product_id` = 'kcI4O2NaVl2y4U2aZuXo', `quantity` = '160', `rate` = '80', `total_amount` = '12800' WHERE `purchase_detail_id` =  'eViWvQZIvEB27ZF';
+UPDATE `product_purchase_details` SET `product_id` = 'px1gZNPyQkhgOUqNakAw', `quantity` = '12', `rate` = '1000', `total_amount` = '12000' WHERE `purchase_detail_id` =  '9PvbFe8c8VcCwjd';
+UPDATE `product_purchase_details` SET `product_id` = 'FiZq3qpFcr15vgNUcH0J', `quantity` = '440', `rate` = '225', `total_amount` = '99000' WHERE `purchase_detail_id` =  'BEykak1zsm5td1J';
+UPDATE `product_purchase_details` SET `product_id` = 'hJsIwGT16dcTMacN7rpt', `quantity` = '24', `rate` = '480', `total_amount` = '11520' WHERE `purchase_detail_id` =  'izZVQfyM8wiayV0';
+UPDATE `product_purchase_details` SET `product_id` = '6hv8vev2o0oJDG6xznfK', `quantity` = '8', `rate` = '2800', `total_amount` = '22400' WHERE `purchase_detail_id` =  'SWDG7erwVZZOI3F';
+UPDATE `product_purchase_details` SET `product_id` = 'rkM0KNjbS37zj34juDvq', `quantity` = '72', `rate` = '290', `total_amount` = '20880' WHERE `purchase_detail_id` =  'Sb5rvKNkYKW8kLR';
+UPDATE `product_purchase_details` SET `product_id` = 'c7AIUMNNMluRYAyfPpV2', `quantity` = '200', `rate` = '385', `total_amount` = '77000' WHERE `purchase_detail_id` =  'kdnokkJRXdrwr1o';
+UPDATE `product_purchase_details` SET `product_id` = 'QDwrbdBECYwvBHlRfE36', `quantity` = '250', `rate` = '415', `total_amount` = '103750' WHERE `purchase_detail_id` =  'wIFqz22CbPNyNx0';
+UPDATE `product_purchase_details` SET `product_id` = 'y9d8FPt27wP5UvyOSiwL', `quantity` = '6', `rate` = '2450', `total_amount` = '14700' WHERE `purchase_detail_id` =  'eYdICEsLWFoD3W4';
+UPDATE `product_purchase_details` SET `product_id` = 'FefLk5TNxAwzrqX7TS9b', `quantity` = '100', `rate` = '600', `total_amount` = '60000' WHERE `purchase_detail_id` =  'gICmz3eq576HvI5';
+UPDATE `product_purchase_details` SET `product_id` = 'lyFIvch4DdtEWV6pxXGn', `quantity` = '40', `rate` = '410', `total_amount` = '16400' WHERE `purchase_detail_id` =  'vmSOuTUdhpjNtbi';
+UPDATE `product_purchase_details` SET `product_id` = 'LyBAag0PRgTDqhAp50Y6', `quantity` = '40', `rate` = '400', `total_amount` = '16000' WHERE `purchase_detail_id` =  'n9qpkghFNcBIjwQ';
+UPDATE `product_purchase_details` SET `product_id` = '1yp6aziuDrmTgfJo181d', `quantity` = '120', `rate` = '400', `total_amount` = '48000' WHERE `purchase_detail_id` =  'eh4xwnJFHqvq3eH';
+UPDATE `product_purchase_details` SET `product_id` = 'rKHMxbbcLxPgz5HHlJIg', `quantity` = '60', `rate` = '200', `total_amount` = '12000' WHERE `purchase_detail_id` =  'aHFHxqnTv1xx9Xj';
+UPDATE `product_purchase_details` SET `product_id` = 'eTNgrfLm4F9l2Ge7FsK1', `quantity` = '30', `rate` = '385', `total_amount` = '11550' WHERE `purchase_detail_id` =  'O3HHp5vz03fvjYP';
+UPDATE `product_purchase_details` SET `product_id` = 'z097W3pbARc4u8vxm6EJ', `quantity` = '60', `rate` = '250', `total_amount` = '15000' WHERE `purchase_detail_id` =  'qzXv8LckgMbVBZs';
+UPDATE `product_purchase_details` SET `product_id` = 'ZzMNdxpFuV8b2ayQaSko', `quantity` = '6', `rate` = '2600', `total_amount` = '15600' WHERE `purchase_detail_id` =  'lokswQmhFmalX00';
+UPDATE `product_purchase_details` SET `product_id` = 'HV1xaQu22UvYRobOSEh4', `quantity` = '50', `rate` = '310', `total_amount` = '15500' WHERE `purchase_detail_id` =  'moxdemcPdGKUorM';
+UPDATE `product_purchase_details` SET `product_id` = 'a2xmRhRT8nVyySkU9S2K', `quantity` = '48', `rate` = '980', `total_amount` = '47040' WHERE `purchase_detail_id` =  'oJEUSQZkVNTmAlu';
+UPDATE `product_purchase_details` SET `product_id` = 'mgh6IEKUQG9Qy9zPCYrq', `quantity` = '600', `rate` = '235', `total_amount` = '141000' WHERE `purchase_detail_id` =  'gMZVr47KJZQVt6B';
+UPDATE `product_purchase_details` SET `product_id` = 'LqoXR1GcGcq6kZYbevNd', `quantity` = '60', `rate` = '620', `total_amount` = '37200' WHERE `purchase_detail_id` =  '7kKB5cRVDlgZMgA';
+UPDATE `product_purchase_details` SET `product_id` = 'ZNrkk1p2qVqOeZuoyLC5', `quantity` = '20', `rate` = '560', `total_amount` = '11200' WHERE `purchase_detail_id` =  '9DOXY6RVFauWueS';
+UPDATE `product_purchase_details` SET `product_id` = 'ZzMNdxpFuV8b2ayQaSko', `quantity` = '51', `rate` = '2600', `total_amount` = '132600' WHERE `purchase_detail_id` =  'wa37bxZsHcUo2hK';
+UPDATE `product_purchase_details` SET `product_id` = 'NMeVfMLuxNY6SWn41VLN', `quantity` = '16', `rate` = '850', `total_amount` = '13600' WHERE `purchase_detail_id` =  '3fOG4mBK8HksdTN';
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707121336', '1220', '9AL2342M15VZRI6WKSDR', '2621400', '2015-06-21', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707121336', '1220', '9AL2342M15VZRI6WKSDR', '2621400', '2015-06-21', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('fUntv1ZsxQqWWLM', '20150707121336', 'gqP3mTFZ0y87M5haRkKr', '1800', '210', '378000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('rtIZWccJCph6i0O', '20150707121336', '5yoA3yV57iw2h8JmYzP4', '600', '445', '267000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('Pfi4OVtoDh6u4R6', '20150707121336', 'H4nQe0ZOqcEWsgW7Vd5Q', '600', '235', '141000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('G0oPYAs2KugrqFr', '20150707121336', 'mypmLBg2MOoRaOwS3Zha', '500', '570', '285000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('6VMdOby8G2fBlYS', '20150707121336', 'O8UX6KFZLtNyzL7pR7wZ', '600', '320', '192000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('hfSNvqMdiXOFF5K', '20150707121336', 'CgtLYRXxpePPcsNvcAqS', '900', '430', '387000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('xzfAUtcHri0Nkll', '20150707121336', 'zJv2c05EkvlaBUm4GQxy', '240', '560', '134400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('4IGLT22iTZ7jeBe', '20150707121336', 'iSDzneeGTIR7pgjkctav', '300', '490', '147000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('pyVKyo5RvmzvyZW', '20150707121336', 'jhUQk0BffhCobJv5tcuG', '300', '200', '60000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('ZSfgd1YTYtvVUQW', '20150707121336', 'gFxJFxSVGHw0blBY04tM', '600', '420', '252000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('x7LHHAvBRhnGUcg', '20150707121336', 'gqP3mTFZ0y87M5haRkKr', '1800', '210', '378000', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707121741', '1221', '9AL2342M15VZRI6WKSDR', '180300', '2015-06-27', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707121741', '1221', '9AL2342M15VZRI6WKSDR', '180300', '2015-06-27', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('U1ZXicnLu59mobj', '20150707121741', 'RYuPfjieuv06M7NRVJqY', '100', '380', '38000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('EUUK5i5ZLpGiDai', '20150707121741', 'AsgBf91OY2zB6WsGDz1Q', '60', '560', '33600', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('CuZbH95vJopIRVj', '20150707121741', 'NyCTakiTCoUH51gEmncN', '100', '390', '39000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('2Z4KjyseM5JVcMu', '20150707121741', 'T1JVQsB3GX6ctKvBXEv6', '60', '620', '37200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('BPebrmZmXjQDriX', '20150707121741', 'CgPSHIChMwCUfaPdqGWV', '100', '325', '32500', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20150707122020', '1222', '9AL2342M15VZRI6WKSDR', '1994600', '2015-06-30', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20150707122020', '1222', '9AL2342M15VZRI6WKSDR', '1994600', '2015-06-30', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('oXCPgMfez2ZTAEK', '20150707122020', 'NyCTakiTCoUH51gEmncN', '600', '390', '234000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('trvlqdwNxYSB1xT', '20150707122020', 'CgPSHIChMwCUfaPdqGWV', '600', '325', '195000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('CcsErPRMtHEJdFO', '20150707122020', 'RYuPfjieuv06M7NRVJqY', '400', '380', '152000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('oy6Zam3NyqlHrb5', '20150707122020', 'AsgBf91OY2zB6WsGDz1Q', '120', '560', '67200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('DdXwiFB1Sv9W6bc', '20150707122020', 'T1JVQsB3GX6ctKvBXEv6', '120', '620', '74400', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('JFQFerrX4gDfnv7', '20150707122020', 'xUPEMyWcXkrJcRGkSPEF', '2500', '220', '550000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('iya6k0AmzUYxqUO', '20150707122020', '77LeJpTebNJ0VuS4D07m', '1000', '360', '360000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('IdUYjyFRL0xOfa0', '20150707122020', 'JcngcRjs2Hrgmdk7zUuA', '400', '260', '104000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('c0y36Z37CrPae6u', '20150707122020', 'ubqGRoxgvPE7v2Bqibtl', '300', '445', '133500', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('tDODcx2iECi2RDS', '20150707122020', 'UxDnjv3aDx4urBTpde8Q', '300', '415', '124500', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('AHY8HEDBED1MH63', 'A. Malek Electric', 'Mozammel Market', ' ', 'None', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('HSFDLWAZFX', 'AHY8HEDBED1MH63', 'NA', NULL, '32300', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+UPDATE `customer_information` SET `customer_name` = 'A. Malek Electric', `customer_address` = 'Mozammel Market', `customer_mobile` = ' ', `customer_email` = 'None' WHERE `customer_id` =  'AHY8HEDBED1MH63';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('FR2B1LQ6VSCHKMG', 'Sohel Enterprise / Ahakamoni Enter:', '141,Sundorban Square Super Market.(Ground Floor).Fulbaria.', '01715941111,01921002222', 'Phone:02-9573167', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('I66581M8GI', 'FR2B1LQ6VSCHKMG', 'NA', NULL, '817425', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('ZZWZ6LZMP572ZZQ', 'Ali Electric & Electronics', '173Sundorban Square Super Market.(Ground Floor).Fulbar,ia.Dhaka-1000', '01710884528', 'Phone:02-9563038', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('S6DUNVTOEV', 'ZZWZ6LZMP572ZZQ', 'NA', NULL, '220505', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+UPDATE `customer_information` SET `customer_name` = 'Sohel Enterprise / Ahakamoni Enter:', `customer_address` = '141,Sundorban Square Super Market.(Ground Floor).Fulbaria. Dhaka-1100', `customer_mobile` = '01715941111,01921002222', `customer_email` = 'Phone:02-9573167' WHERE `customer_id` =  'FR2B1LQ6VSCHKMG';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('TUQ2HXRIEGHPFF6', 'M/S Alifa Enterprise.(Saiful)', '195/1,Sundorban Square Super Market.(Ground Floor).Fulbar,ia.Dhaka-1100', '01815098546,01924150953', 'Phone:02-9511975', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('H2E86LLOJ6', 'TUQ2HXRIEGHPFF6', 'NA', NULL, '660720', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('KLZGVP6S8MGSFKW', 'Business Fair', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', ' ', 'None', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('LQW9NL81GS', 'KLZGVP6S8MGSFKW', 'NA', NULL, '399000', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('TF1PPJR4DWVWOQT', 'Century Electronics (Shahid Ullah)', '94,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01815400585', 'None', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('ILQK5O55AW', 'TF1PPJR4DWVWOQT', 'NA', NULL, '648510', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('Z74CGOK8MNSCFY5', 'Chittagong Trading (Iqbal Hossain)', 'R.Rahman Market.', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('F84K998EP4', 'Z74CGOK8MNSCFY5', 'NA', NULL, '187240', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('P5L2HDAZ3IH2TTY', 'Chittagong Trading (Sorwor)', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('NPXOOLHI5S', 'P5L2HDAZ3IH2TTY', 'NA', NULL, '596420', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('QJO7C8PE5NN8QK5', 'Epaz Trade International', 'Mozammel Market', '01711375518,01919375518', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('NNQKIRGD2K', 'QJO7C8PE5NN8QK5', 'NA', NULL, '777310', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('SHQ2JF7TWHUB5MW', 'Fauk And Brother\'s ', 'Mozammel Market', '01815614807', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('MA6KCT82G8', 'SHQ2JF7TWHUB5MW', 'NA', NULL, '1002554', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('YSYLKQ6M2B7SUAZ', 'Fatema Electric(Saif Uddin Nasir)', '156,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1100', '01919336728,01915727457,01190832477', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('5PTQYMIHT9', 'YSYLKQ6M2B7SUAZ', 'NA', NULL, '98330', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('B33OA9S4OG6BTV2', 'Jara Enterprise (Sumon)', '179/1,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01931184881,01921084596.', 'Phone:02-9592498', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('9MPV45CBLN', 'B33OA9S4OG6BTV2', 'NA', NULL, '37055', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('MSC1ULPLXZSHJ8P', 'Jawad Enterprise.', '157,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01720567210', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('EAJH6JUGXF', 'MSC1ULPLXZSHJ8P', 'NA', NULL, '319835', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('GJJSTYYXYDH45DJ', 'Alif Mim Enterprise.(Kibria)', 'M.S. Electric Market', '', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('JBAKGS9WJK', 'GJJSTYYXYDH45DJ', 'NA', NULL, '96700', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('OBNLGZTMKEZ3CKU', 'Lighting Fair (Nazim Uddin)', '195,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01920287826,01777276573', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('7GBSAPUGV5', 'OBNLGZTMKEZ3CKU', 'NA', NULL, '287888', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('5YLVCZ8SUHFI2B1', 'M.R trading (Mahmud)', 'Dipa Market', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('UL6ZBKBZW6', '5YLVCZ8SUHFI2B1', 'NA', NULL, '754380', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('ZX1QHSPJ2K325QG', 'M.A Hossen (Amzad)', '', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('JUZIN6AD2E', 'ZX1QHSPJ2K325QG', 'NA', NULL, '346106', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('SJ9I17IILTNAHPM', 'M.J. Traders (Mamunur Rashid)', '156,Nawabpur Road, Rohul Amin (Mojammel Electric) Market, Dhaka.', '01817109162,01728565979', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('9XI6G91D14', 'SJ9I17IILTNAHPM', 'NA', NULL, '915075', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('QX6MSG9RTO5B8QJ', 'M.M. Enterprise ( Mamun & Mohiuddin)', 'M.S. Electric Market', '01814838315,01830116901', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('CAZN2VRT7B', 'QX6MSG9RTO5B8QJ', 'NA', NULL, '109855', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('VD7BGN6G1RCE45B', 'Maa-Moni Biddut Bithan', ' ', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Y5WLESQDFZ', 'VD7BGN6G1RCE45B', 'NA', NULL, '61000', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('UUH2ERVSDRGRVQX', 'Mollah Electric & Electronics (Bodo Mollah)', '161,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01817140169', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('VRREGI8JA2', 'UUH2ERVSDRGRVQX', 'NA', NULL, '168590', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('AY4MEJLTYBDHJ7H', 'Mollah Enterprise (Nurul Amin)', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01726098236', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('8Y4OF4FX1U', 'AY4MEJLTYBDHJ7H', 'NA', NULL, '463385', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+UPDATE `customer_information` SET `customer_name` = 'Mollah Light House (Nurul Amin)', `customer_address` = 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', `customer_mobile` = '01726098236', `customer_email` = ' ' WHERE `customer_id` =  'AY4MEJLTYBDHJ7H';
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('FFHBKHWMU12I6YG', 'Mollah Enterprise (Mostafa Kamal)', '148,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01915371405,01726131248', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('8HSWXRRUED', 'FFHBKHWMU12I6YG', 'NA', NULL, '167310', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('KPCEWESJ3S68N6K', 'Nadim Enterprise', 'M.S. Electric Market', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('HDUZVMHNW9', 'KPCEWESJ3S68N6K', 'NA', NULL, '25500', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('8R7DQ4THPZXOR5W', 'Nafiza Enterprise (Sohidullh)', 'M.S Electric', ' ', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('QPTZT1KYO4', '8R7DQ4THPZXOR5W', 'NA', NULL, '223300', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('SEHJ8JCCTL9JDTO', 'New Chittagong Trading (Furkan Chowdhury)', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01914495009', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('FXVF43SUG4', 'SEHJ8JCCTL9JDTO', 'NA', NULL, '365400', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('UPG7OCZXDIH299I', 'Perfect Trading (Sohel)', '180/2,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka.', '01534575350,01752308622,01854938299', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('JWU5D4G7UC', 'UPG7OCZXDIH299I', 'NA', NULL, '363463', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('HU327FGRDPMVNYJ', 'Rahtul Enterprise ', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('92QEDON1JV', 'HU327FGRDPMVNYJ', 'NA', NULL, '324890', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('YDHLQ3OC5KKAB67', 'Rony Electric', 'M.S Electric Market', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('N6ZQ327C4N', 'YDHLQ3OC5KKAB67', 'NA', NULL, '36755', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('P8D2TCGBA1IDB39', 'S,K. Corporation ', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('GMXVE54DC4', 'P8D2TCGBA1IDB39', 'NA', NULL, '135000', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('C2142JSW6BY6OKK', 'S.S Enterprise (Sumon & Shahed)', '217,Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '01720535464,01924509278', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('MW5JPNBNOC', 'C2142JSW6BY6OKK', 'NA', NULL, '491475', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('FQYQ6GXLCEZ2HL7', 'S.S Traders (Golam Mostafa)', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Z638Z5G9TP', 'FQYQ6GXLCEZ2HL7', 'NA', NULL, '45400', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('GMLFNBMKOWAUS4Y', 'Samiya Electronic (Sojib)', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', ' ', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('SMI3R64X7V', 'GMLFNBMKOWAUS4Y', 'NA', NULL, '106350', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('K1WZE7FIE72TQEV', 'Sayka Enterprise (Mannan)', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('EV1YD5K6U9', 'K1WZE7FIE72TQEV', 'NA', NULL, '74060', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('LJH4JRYFAX979AU', 'Sony Electronic', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('3DEAF7O9ZR', 'LJH4JRYFAX979AU', 'NA', NULL, '21500', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('3BLR1GNWYDV26J9', 'Tawsif Enterprise ', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('RM2L7KNS3F', '3BLR1GNWYDV26J9', 'NA', NULL, '39080', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('GI5ZEZGVV6Y7FFU', 'Toha Electronics', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('4W66GVDNT7', 'GI5ZEZGVV6Y7FFU', 'NA', NULL, '238810', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('P4KRCMZLV7QEBE1', 'Trade Mark (Topon)', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('TF83IEIM7R', 'P4KRCMZLV7QEBE1', 'NA', NULL, '22500', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('GY4GKKNLSP4UAFU', 'Universel Electronic (Saiful)', 'Sundorban Square Super Market.(Ground Floor).Fulbaria.Dhaka-1000', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('1VC6TS9EIG', 'GY4GKKNLSP4UAFU', 'NA', NULL, '1035325', 'Previous adjustment with software', 'NA', 'NA', '2015-07-07', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8516576362', 'UUH2ERVSDRGRVQX', '2015-06-15', '129650', 1000, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('483845835381889', 'UUH2ERVSDRGRVQX', '8516576362', '2015-06-15', '129650', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('125328168626352', '8516576362', 'qVggr6ph8mUv4cVXCTpu', '1', '40', '275', '275', '11000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('581865357876964', '8516576362', 'LGO6MtokKiKRd52hyG2S', '1', '30', '310', '310', '9300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('866488294966681', '8516576362', 'xUPEMyWcXkrJcRGkSPEF', '6', '300', '220', '220', '66000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('748825349137623', '8516576362', '5yoA3yV57iw2h8JmYzP4', '1', '30', '445', '445', '13350', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('119747557953512', '8516576362', 'W02xCKyTnZnz9JsSZlu9', '1', '60', '280', '275', '16800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('585477891814575', '8516576362', 'Lti657rkTYgLAoMvnp0', '1', '40', '330', '330', '13200', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8157557489', 'B33OA9S4OG6BTV2', '2015-06-15', '178930', 1001, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('644514661477884', 'B33OA9S4OG6BTV2', '8157557489', '2015-06-15', '178930', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('119868763428157', '8157557489', '77LeJpTebNJ0VuS4D07m', '3', '60', '360', '360', '21600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('921462838965644', '8157557489', 'nklppwylsdqFGQFEkDvW', '1', '60', '210', '210', '12600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('154949816247952', '8157557489', 'xUPEMyWcXkrJcRGkSPEF', '2', '100', '220', '220', '22000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('754889972868332', '8157557489', 'hBnPYhxJhElJK03bGchi', '1', '40', '285', '285', '11400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('737131112625321', '8157557489', 'Lti657rkTYgLAoMvnp0', '1', '40', '330', '330', '13200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('585864861147871', '8157557489', 'CgtLYRXxpePPcsNvcAqS', '1', '30', '430', '430', '12900', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('154856967128651', '8157557489', 'p1rHGqEf0Ws0X05ZKH0D', '1', '60', '285', '280', '17100', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('619196482596374', '8157557489', 'UxDnjv3aDx4urBTpde8Q', '1', '30', '420', '415', '12600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('388664361963828', '8157557489', 'lD4Bo0KjvU0xUyIbZHmW', '1', '24', '510', '510', '12240', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('878878426675393', '8157557489', 'TFimqpVw1GNgNlvzwnAU', '1', '50', '285', '280', '14250', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('732688114119381', '8157557489', 'W02xCKyTnZnz9JsSZlu9', '1', '60', '280', '275', '16800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('178955797464884', '8157557489', 'PVhzW7s1ffhLUTYAuBUg', '2', '24', '510', '510', '12240', 1);

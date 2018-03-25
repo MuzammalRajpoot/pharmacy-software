@@ -1,0 +1,36 @@
+
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('VRGZLVT9DO', 'Party Payment', 'outflow_OH7IXZUN4X', '1');
+CREATE TABLE IF NOT EXISTS outflow_OH7IXZUN4X (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('YIR0TOIKJG', 'CND1NGUGTHSA34K', '2013-12-23', '231960', 1009, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('6fo1kCD9NWlBAl0', 'CND1NGUGTHSA34K', 'YIR0TOIKJG', '2013-12-23', '231960', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('j0VzOonwWnIkLSK', 'YIR0TOIKJG', 'z62tqf8qbOhdLUrjELb3', '2', '120', '170', '220', '20400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('SOp7FQ0JPNf1Mfc', 'YIR0TOIKJG', 'llKF30SbyUMtZVWjc1Ue', '3', '36', '510', '540', '18360', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('MFch6qLjchNlIY5', 'YIR0TOIKJG', 'XZHLeMNSqzatvVI6FLMG', '1', '60', '255', '250', '15300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('SqI9nMPnWez3TDY', 'YIR0TOIKJG', 'FqXYEvYWT1or42dNlFdY', '3', '180', '290', '270', '52200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('xQePxa700ZhNApk', 'YIR0TOIKJG', 'aKwhDdqsLpXqGTR90kxT', '2', '120', '175', '160', '21000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('59RD76RLioqYgCb', 'YIR0TOIKJG', 'ZOYtFlVk0NCKiqRPHGQL', '3', '180', '215', '220', '38700', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('61rZGfzCfzbCBcr', 'YIR0TOIKJG', '2euzltdUmvWkM0u0X9t1', '2', '80', '240', '180', '19200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('mXp5amzryXTfv3h', 'YIR0TOIKJG', '8fWqwzcu4GzxMD1BCwxc', '2', '120', '215', '210', '25800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('MxY5MeaDg64986a', 'YIR0TOIKJG', 'GgdZLCw7hPEunHgcAttI', '3', '60', '350', '340', '21000', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('QL6DF6YJ5D', 'V15L4C4L23FWMQN', '2013-12-23', '54200', 1010, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('EJ1IL5yUxMJKHWe', 'V15L4C4L23FWMQN', 'QL6DF6YJ5D', '2013-12-23', '54200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('4HNccOsEKwKGktB', 'QL6DF6YJ5D', '4CnWKLzMDJJQyHbPt1XW', '2', '40', '360', '350', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('oxKf7WZupM8zXFN', 'QL6DF6YJ5D', 'GgdZLCw7hPEunHgcAttI', '2', '40', '350', '340', '14000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('39UFbwVK2f7Blhv', 'QL6DF6YJ5D', 'S2LHOYoZ33NIZYUAhWTj', '2', '120', '215', '210', '25800', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131223233055', '65', 'T6F2M9UXLULUJ7AGKX9U', '618000', '2013-12-23', 'd', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131223233055', '65', 'T6F2M9UXLULUJ7AGKX9U', '618000', '2013-12-23', 'd', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('GOnBuuseRWSq7X8', '20131223233055', '4CnWKLzMDJJQyHbPt1XW', '400', '355', '142000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('eyeQDiMDYzBXxHt', '20131223233055', 'xOEkyj8Xf82vY9v6kDCb', '1200', '280', '336000', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('UO98Psr9N0VfpR4', '20131223233055', 'GgdZLCw7hPEunHgcAttI', '400', '350', '140000', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('FS0BCLRPPF', 'RRQOAY6S47IIC5O', '2013-12-23', '14400', 1011, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('EZgnFPWud8hdxh8', 'RRQOAY6S47IIC5O', 'FS0BCLRPPF', '2013-12-23', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('c43bTA7E09glqw1', 'FS0BCLRPPF', '4CnWKLzMDJJQyHbPt1XW', '2', '40', '360', '350', '14400', 1);

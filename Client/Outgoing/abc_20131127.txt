@@ -1,0 +1,3 @@
+
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Slhbvha6phif8n6', '9svKz0rosl3Adg5', NULL, '97M0ntkQdG', '89000', 'j', '1', '', '2013-11-27', 1);
+INSERT INTO `inflow_gfDmsV5cyb` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Slhbvha6phif8n6', '9svKz0rosl3Adg5', '1', '2013-11-27', '89000', 'j', 1);

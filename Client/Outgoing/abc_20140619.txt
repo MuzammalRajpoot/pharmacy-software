@@ -1,0 +1,18 @@
+
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('G2P2S4LLOKCWTCX', 'Faruk & Brothers', 'sams electric market ', '01811235016', 'none', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('IKZL7X21S6', 'G2P2S4LLOKCWTCX', 'NA', NULL, '200000', 'Previous adjustment with software', 'NA', 'NA', '2014-06-19', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20140619124659', 0, 0, 0, 0, 0, 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20140619124659', 0, 0, 0, 0, 0, 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20140619124730', 0, 0, 0, 0, 0, 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20140619124730', 0, 0, 0, 0, 0, 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20140619125212', '2222', 'HPWOQMTKJ9P4QOERO3LL', '0', '2014-06-19', 'D', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20140619125212', '2222', 'HPWOQMTKJ9P4QOERO3LL', '0', '2014-06-19', 'D', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('ZAWgjmMhTfTkk0m', '20140619125212', 'lL6nnp9GE04VOoV7izvd', '400', '', '0', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('f8pIBdIjsHs9Yqp', '20140619125212', '', '0', '', '0', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('2632977836', 'N5X9SD5I4ALTCMV', '2014-06-20', '133040', 1001, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('211711471722962', 'N5X9SD5I4ALTCMV', '2632977836', '2014-06-20', '133040', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('645815968165858', '2632977836', 'lL6nnp9GE04VOoV7izvd', '2', '40', '355', '355', '14200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('469541677649835', '2632977836', 's3wGyIrEFqwAhZRmiMaZ', '2', '104', '355', '350', '36920', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('989461967873467', '2632977836', 'DTU363VvTLRFBet8cgT8', '2', '80', '265', '260', '21200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('313256214867859', '2632977836', '8XJE6iCrstwcS9O1iMpn', '2', '240', '113', '112', '27120', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('347384381977213', '2632977836', 'Ag9C7Ry4hamyW7WuM9M1', '2', '120', '280', '275', '33600', 1);

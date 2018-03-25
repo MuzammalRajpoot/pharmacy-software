@@ -1,0 +1,17 @@
+
+INSERT INTO `outflow_8B4tqNeXkH` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('wl7Fsr21oAiEBTs', 'GrpzzgpJSVumkTuMRQBZ', '2', '2013-12-02', '16000', 'New data', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('XEQEC1SI5D', 'Drawing Return', 'inflow_18BCB39XC2', '2');
+CREATE TABLE IF NOT EXISTS inflow_18BCB39XC2 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1ZA8KWRXNI', 'jk9pOI0Ftkjc56', '2013-12-02', '36060', 1023, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('uxgUHJ1QeitcQZr', 'jk9pOI0Ftkjc56', '1ZA8KWRXNI', '2013-12-02', '36060', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('xSPBOG3ngzx4Glg', '1ZA8KWRXNI', 'McDxTxDDw1c6HSo4eYb6', '2', '30', '200', '3400', '60', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('PTVwpb7fraEb4T1', '1ZA8KWRXNI', 'mIgciPBHV8tjDffwVlpN', '3', '36', '1000', '200', '36000', 1);

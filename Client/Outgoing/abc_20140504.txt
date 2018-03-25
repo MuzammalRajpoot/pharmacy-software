@@ -1,0 +1,2 @@
+
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('WY3SmqcVFFkIBOOhw970', 'test', '8000', '500', '5', 'A', 'it is test product', 1);

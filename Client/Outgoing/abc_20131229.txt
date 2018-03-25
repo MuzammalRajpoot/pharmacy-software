@@ -1,0 +1,10 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('ICRBZFK93Z', 'Y16XBR6BBYH1K84', '2013-12-29', '150740', 1007, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('JNLR0B95iYjen1Y', 'Y16XBR6BBYH1K84', 'ICRBZFK93Z', '2013-12-29', '150740', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('kzEBFtjHAlhgwfZ', 'ICRBZFK93Z', 'MYt243aaNTKVV0jOjzMZ', '2', '40', '360', '350', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('lplx8ky7fXVE296', 'ICRBZFK93Z', 'WmE5QQhP3YQyQUsHhMFM', '2', '80', '260', '255', '20800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('PiuVkzEK8EveliA', 'ICRBZFK93Z', 'RRNO9UswzeRvCFAzjXSt', '2', '24', '510', '505', '12240', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('AJqm8nNvjrJ4wA2', 'ICRBZFK93Z', 'pyXpPHNF9OPZCB4IAzMM', '2', '48', '350', '345', '16800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('rQabkARoKOt7tTe', 'ICRBZFK93Z', 'atpSLWJzUQwfTN3zX8rt', '2', '80', '320', '310', '25600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('tWoa9lDLXm4ggph', 'ICRBZFK93Z', 'dQmHzDCUWDKsckfp6nt0', '2', '120', '280', '275', '33600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('YXyyzYzGDATx7FJ', 'ICRBZFK93Z', '6JPz6oQHSMUyReNzPpPE', '2', '60', '455', '450', '27300', 1);

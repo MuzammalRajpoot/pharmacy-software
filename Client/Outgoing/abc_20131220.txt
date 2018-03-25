@@ -1,0 +1,7 @@
+
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('K5CIPJ8ETFB8', 'W1Y5EIKAOJZZ8M8', 'RGMW8BEQAGEFCH6', 'E1IP6O9WEV', '46846489', '2013-12-28', 'inflow', 0, '4520', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('W1Y5EIKAOJZZ8M8', 'RGMW8BEQAGEFCH6', NULL, 'YYLH7L7ZIR', '4520', 'knkj', '2', '46846489', '2013-12-20', 0);
+INSERT INTO `inflow_BU5O9E9A3J` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('W1Y5EIKAOJZZ8M8', 'RGMW8BEQAGEFCH6', '2', '2013-12-20', '4520', 'knkj', 0);
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('OLRI4WQIJIG7', 'YBK6K8HL9CE7ZVB', 'RGMW8BEQAGEFCH6', 'E1IP6O9WEV', 'i09u98', '2013-12-20', 'inflow', 0, '89', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('YBK6K8HL9CE7ZVB', 'RGMW8BEQAGEFCH6', NULL, 'IMW18XUEZY', '89', 'jjiuhi', '2', 'i09u98', '2013-12-20', 0);
+INSERT INTO `inflow_BU5O9E9A3J` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('YBK6K8HL9CE7ZVB', 'RGMW8BEQAGEFCH6', '2', '2013-12-20', '89', 'jjiuhi', 0);

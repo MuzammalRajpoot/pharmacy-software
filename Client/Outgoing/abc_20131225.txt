@@ -1,0 +1,159 @@
+
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('bEhcsywuFO12sR5', 'T6F2M9UXLULUJ7AGKX9U', NULL, 'ral7E37u18', '100000', ' ', '1', '', '2013-12-25', 0);
+INSERT INTO `outflow_OH7IXZUN4X` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('bEhcsywuFO12sR5', 'T6F2M9UXLULUJ7AGKX9U', '1', '2013-12-25', '100000', ' ', 0);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('LUNIWA4NMB', 'RRQOAY6S47IIC5O', '2013-12-25', '128620', 1016, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('EZ5FAgFpCeoMKFK', 'RRQOAY6S47IIC5O', 'LUNIWA4NMB', '2013-12-25', '128620', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('UkJsQv4k8c7XTI0', 'LUNIWA4NMB', '8fWqwzcu4GzxMD1BCwxc', '2', '120', '215', '210', '25800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('xMZsSZOYER3teCy', 'LUNIWA4NMB', 'z62tqf8qbOhdLUrjELb3', '1', '60', '170', '220', '10200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('pTZyEqj9QgaM5wT', 'LUNIWA4NMB', 'Sm3yhoXN1NzDmY8N0HzG', '1', '0', '0.00', NULL, '0', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('5jjUR3sfQxwIgRK', 'LUNIWA4NMB', 'xOEkyj8Xf82vY9v6kDCb', '2', '120', '280', '280', '33600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('T8guvkaVir205wv', 'LUNIWA4NMB', 'aKwhDdqsLpXqGTR90kxT', '3', '180', '175', '160', '31500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('QqTz0mssI9f6HCN', 'LUNIWA4NMB', '4CnWKLzMDJJQyHbPt1XW', '2', '40', '360', '350', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('RXKyI6YiQ8QH7K4', 'LUNIWA4NMB', '36rBPvCuym3ivXxObskp', '1', '20', '350', '340', '7000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('sbkDQkp0Uy8ytE2', 'LUNIWA4NMB', 'llKF30SbyUMtZVWjc1Ue', '1', '12', '510', '540', '6120', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('ETASV1THS1', '6Y2FRL7RDSFZ2W8', '2013-12-25', '115740', 1017, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('c9O7qX9KL60C5cB', '6Y2FRL7RDSFZ2W8', 'ETASV1THS1', '2013-12-25', '115740', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('aYZfpLkBm3WcmeL', 'ETASV1THS1', 'z62tqf8qbOhdLUrjELb3', '1', '60', '170', '220', '10200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('d7Kr32F2BQwAUrc', 'ETASV1THS1', '8fWqwzcu4GzxMD1BCwxc', '2', '120', '215', '210', '25800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('VH2unh7MiiG6BsZ', 'ETASV1THS1', 'xOEkyj8Xf82vY9v6kDCb', '2', '120', '280', '280', '33600', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('NNWX4OO0GPP3Qik', 'ETASV1THS1', 'EjCUT3bhtNFFfuhzw206', '1', '30', '390', '440', '11700', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('s3skmTHiiqHolIX', 'ETASV1THS1', '2euzltdUmvWkM0u0X9t1', '2', '80', '240', '180', '19200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('BTjXsdm8csMskdQ', 'ETASV1THS1', 'xxYB70jiuEArZCkS4Kl5', '1', '120', '127', '50', '15240', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('AOVHKWCEDZ', '1WTFMYJA4579VZ6', '2013-12-25', '24800', 1018, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('PTkjgW15CM2OqiG', '1WTFMYJA4579VZ6', 'AOVHKWCEDZ', '2013-12-25', '24800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('K6DIeaJsLRU8UyA', 'AOVHKWCEDZ', 'GgdZLCw7hPEunHgcAttI', '2', '40', '350', '340', '14000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('tETUn3pexsrp8YM', 'AOVHKWCEDZ', 'zvNS19iQC0YtQg5j169Z', '1', '40', '270', '265', '10800', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131225010059', 'fr55r', 'T6F2M9UXLULUJ7AGKX9U', '0', '2013-12-25', ' ', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131225010059', 'fr55r', 'T6F2M9UXLULUJ7AGKX9U', '0', '2013-12-25', ' ', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('u9hHGTCsydXULIz', '20131225010059', 'EjCUT3bhtNFFfuhzw206', '3600', '', '0', 1);
+UPDATE `product_purchase_details` SET `product_id` = 'EjCUT3bhtNFFfuhzw206', `quantity` = '3600', `rate` = '444', `total_amount` = '1598400' WHERE `purchase_detail_id` =  'u9hHGTCsydXULIz';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8JFT2DCVNC', 'V15L4C4L23FWMQN', '2013-12-25', '23400', 1019, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('Zw9bGuS6ex2gcKq', 'V15L4C4L23FWMQN', '8JFT2DCVNC', '2013-12-25', '23400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('3DwoELmMR8FVA28', '8JFT2DCVNC', 'EjCUT3bhtNFFfuhzw206', '2', '60', '390', '440', '23400', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('NdKNJIP6wE8qkh7gHzcN', 'Sunmoon', '360', '20', 'SM-769A', '52', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('twGJtY15ziTRrzTNWCb1', 'Sunmoon', '230', '220', '20', 'SM-769', 'sdf', 1);
+UPDATE `product_information` SET `product_name` = 'Sunmoon', `price` = '230', `supplier_price` = '240', `cartoon_quantity` = '20', `product_model` = 'SM-769', `product_details` = 'sdf', `status` = 1 WHERE `product_id` =  'twGJtY15ziTRrzTNWCb1';
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('WKkki1erDGk77udSjIi', 'BIG ONE', '235', '230', '40', 'BG-6811A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('qw2THpOUFzdvteC8EaZ9', 'DP', '255', '255', '60', 'DP-605A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('SxAiVJLDhV8SKdPUWLQG', 'DP', '385', '380', '30', 'DP-618', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('4vqvTEqXJR2xBqrhgp77', 'DP', '420', '215', '30', 'DP-628', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('KOpTeXzOGlPUEHnHCWKV', 'DP', '285', '280', '50', 'DP-636', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('xN9yYjy19432Ai3pAvGd', 'DP', '285', '280', '60', 'DP-666', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('EmgGqZ2uaH2SBEjfQ6Z0', 'DP', '350', '350', '50', 'DP-703', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('ZuAHEm59xf3m3LkBziNg', 'DP', '215', '215', '60', 'DP-712', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('R1AFhha8rCxlxWx0u6vn', 'DP', '345', '340', '30', 'DP-714', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('nwP70SQVixFoHIHkvJ30', 'DP', '450', '445', '30', 'DP-715', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('5TEzOXalGxiHsOmMHRcq', 'DP', '280', '275', '60', 'DP-716', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('cRqJM67YON9KQaKRAdAQ', 'DP', '450', '445', '30', 'DP-720', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('OzNPdxL4QvgxT64qM2ZG', 'DP', '690', '690', '15', 'DP-721', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('XeM6PNAFc2PzrsUnHbkM', 'DP', '500', '500', '24', 'DP-725', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('KDIDWWnMVB4HBHJXWzMR', 'DP', '260', '260', '50', 'DP-727', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('IlOtPs0h4VjhIK7iaPty', 'DP', '280', '280', '30', 'DP-751', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('JVoEQr8zbTMd8cNllUob', 'DP', '280', '280', '50', 'DP-764', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('iQVeBxzcrlkiPYv1Fs85', 'DP', '600', '600', '16', 'DP-767', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('xncOeI70dfs8I27vvjsu', 'DP', '600', '600', '20', 'DP-769', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('NIKurM1hqbNP2fOMxS24', 'DP', '500', '500', '30', 'DP-772', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('mLPeqt00AnFSBDhYnAYd', 'DP', '250', '250', '40', 'DP-801', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('9DxGopuJdoaRFAvuXWk5', 'DP', '235', '235', '40', 'DP-802', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('VgfxW2B9LkhGYKCV34DN', 'DP', '245', '245', '40', 'DP-807', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('TfyqUXnbAujrsLBZSFSL', 'DP', '260', '260', '40', 'DP-809', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('cGGYbvnkvC3NaeljHbeV', 'DP', '260', '260', '40', 'DP-810', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('Y10OiDk7DCXB88MXrlsW', 'SUNMOON', '880', '850', '6', 'MA9A/HP-9', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('SHztNZE1fcTYvgEhmaB0', 'SUNMOON', '2600', '2600', '3', 'LW-7', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('4ykpbeiO2MnPR2P5IIV5', 'SUNMOON', '2900', '2900', '1', 'SM-293', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('K0XCSYRNUb4QixVuEzAS', 'SUNMOON', '273', '270', '50', 'SM-338', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('U2VjGSUUV8vOHu4l9lRX', 'SUNMOON', '260', '260', '50', 'SM-318', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('ylXfCam7618Xr1hlZ7gL', 'SUNMOON', '272', '270', '50', 'SM-372', 'BAT', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('CikaNN4Mm7lVIBTf9BiM', 'SUNMOON', '262', '260', '50', 'SM-375', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('94HUGgQyNTByhRQsLfnQ', 'SUNMOON', '303', '300', '50', 'SM-378A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('yfzk4JKRb4KPFuMpBeNc', 'SUNMOON', '292', '290', '50', 'SM-379', ' ', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `price` = '273', `supplier_price` = '270', `cartoon_quantity` = '50', `product_model` = 'SM-338', `product_details` = 'BAT', `status` = 1 WHERE `product_id` =  'K0XCSYRNUb4QixVuEzAS';
+UPDATE `product_information` SET `product_name` = 'Sunmoon', `price` = '230', `supplier_price` = '240', `cartoon_quantity` = '20', `product_model` = 'SM-769', `product_details` = 'sunmoon', `status` = 1 WHERE `product_id` =  'twGJtY15ziTRrzTNWCb1';
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('Abt3V0NmXrifVFPWAwJj', 'SUNMOON', '650', '650', '40', 'SM-602', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('hl5mvgY1mszLyIvJUUm3', 'SUNMOON', '170', '170', '60', 'SM-718A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('n1cxSmcdBaGSWbMilYpe', 'SUNMOON', '215', '210', '60', 'SM-728B', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('ygb5M9Mb0WlFHRYCaYFK', 'SUNMOON', '215', '215', '60', 'SM-728', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('IWvXmR8pe4dxTFDolzKq', 'SUNMOON', '350', '350', '20', 'SM-758', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('SpJLYp9OCbp7d4p7GykM', 'SUNMOON', '260', '260', '40', 'SM-768', ' ', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `price` = '360', `supplier_price` = '350', `cartoon_quantity` = '20', `product_model` = 'SM-769A', `product_details` = ' ', `status` = 1 WHERE `product_id` =  'NdKNJIP6wE8qkh7gHzcN';
+UPDATE `product_information` SET `product_name` = 'SUNMOON', `price` = '350', `supplier_price` = '340', `cartoon_quantity` = '20', `product_model` = 'SM-769', `product_details` = ' ', `status` = 1 WHERE `product_id` =  'twGJtY15ziTRrzTNWCb1';
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('O3Ucl9up6YgCK2rmzXTh', 'SUNMOON', '510', '510', '12', 'SM-770', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('cFnNtHZfnOFRXEXWiObq', 'SUNMOON', '270', '270', '40', 'SM-771', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('pH2dV6JU7MzX5PGLKrXI', 'SUNMOON', '430', '430', '30', 'SM-772', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('AZIqu7lFDhhBp4O7BmsH', 'SUNMOON', '550', '550', '25', 'SM-773A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('zCyuLNUDEO8tFWoBMHAD', 'SUNMOON', '550', '550', '10', 'SM-775A', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('7jmMGl2u22nNpswQGCy6', 'SUNMOON', '420', '420', '30', 'SM-776', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('rGzbH5MGusl7XacpIEpE', 'SUNMOON', '550', '550', '12', 'SM-778', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('sNyzdAIjTVebTR2Xo5SS', 'SUNMOON', '310', '310', '30', 'SM-779', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('JhT084xgY8i71nVsYXp4', 'SUNMOON', '620', '620', '10', 'SM-780', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('bdsWfMKL6oxMjA9NjNJ7', 'SUNMOON', '365', '365', '30', 'SM-781', ' ', 1);
+INSERT INTO `product_information` (`product_id`, `product_name`, `price`, `supplier_price`, `cartoon_quantity`, `product_model`, `product_details`, `status`) VALUES ('6fHfeJvfIHTdnQHEiMWW', 'SUNMOON', '420', '420', '24', 'SM-782B', ' ', 1);
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('TLZZURWBKVYRD8JTCNH5', 'AL-IMAM TRADE INTERNATIONAL', '(1-4)Profesor Market , Reaz Uddin Bazar , Chittagong', '01977262626', 'SUNMOON,BIG-1,DP,YJ BRAND SUPPLIER.', 1);
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('COD8TP748HBHC56JUHC4', 'Faroque & Brother\'s', 'Faroque & Brother\'s', '01815614807', 'My Won Product From China ', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('U352ACCTR2', 'Labour Bill', 'outflow_UB6WKRI78Z', '1');
+CREATE TABLE IF NOT EXISTS outflow_UB6WKRI78Z (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('S8ZQ2YK7G7', 'Rent of Storehouse / Godawon Bada', 'outflow_HP559TXL5V', '1');
+CREATE TABLE IF NOT EXISTS outflow_HP559TXL5V (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('OWBTB25BSX', 'Rent of Housekeeper / Basa Bada', 'outflow_VMTAE46PAG', '1');
+CREATE TABLE IF NOT EXISTS outflow_VMTAE46PAG (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('1BZ6722B99', 'Dally Office Entertainment', 'outflow_DYSFUO1DQG', '1');
+CREATE TABLE IF NOT EXISTS outflow_DYSFUO1DQG (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('HSBZDPHCGG', 'Lokman Mama ( Salary )', 'outflow_SR1GBNNF3U', '1');
+CREATE TABLE IF NOT EXISTS outflow_SR1GBNNF3U (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('IIHFZFCFTA', 'Sohid Khan  ( salary )', 'outflow_BKITZH8GNU', '1');
+CREATE TABLE IF NOT EXISTS outflow_BKITZH8GNU (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+UPDATE `supplier_information` SET `supplier_name` = 'Faroque & Brother\'s', `address` = 'Faroque & Brother\'s ,Mokti Jodda Nazim Sordhar Market Lavel-5.Dhaka-1100', `mobile` = '01815614807', `details` = 'My Won Product From China ' WHERE `supplier_id` =  'COD8TP748HBHC56JUHC4';

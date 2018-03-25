@@ -1,0 +1,29 @@
+
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('N4FlgMOCiIK92VP', '56477', '0', '0', '2017-01-07 10:34:01', '56477', '', 1);
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('FDS9YITETH', 'sdgsda', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('QE7QJAYLFB', 'sdfsa', 'outflow_CMIP88O75V', '1');
+CREATE TABLE IF NOT EXISTS outflow_CMIP88O75V (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `user_login` (`username`, `password`, `user_type`, `status`) VALUES ('milkvita@gmail.com', '5da8a513273268f45d842719dcde0f13', '2', 1);
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '0'
+WHERE `user_id` = '1';
+UPDATE `users` SET `first_name` = 'update', `last_name` = 'new', `status` = '0'
+WHERE `user_id` = '5';
+UPDATE `user_login` SET `password` = '41d99b369894eb1ec3f461135132d8bb'
+WHERE `password` = '41d99b369894eb1ec3f461135132d8bb'
+AND `username` = 'test@test.com';
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('KuuVgHRhQI9R15D', '56477', '0', '0', '2017-01-07 11:25:18', '56477', '', 1);
+UPDATE `users` SET `first_name` = 'Hasan', `last_name` = 'Khan', `status` = '0'
+WHERE `user_id` = '3';
+UPDATE `users` SET `first_name` = 'Omar', `last_name` = 'Faruk', `status` = '1'
+WHERE `user_id` = '1';
+DELETE FROM `user_login`
+WHERE `user_id` = '5';

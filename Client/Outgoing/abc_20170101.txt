@@ -1,0 +1,119 @@
+
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('DL1kYjAwEE2QM5S0Xwlb', 'naeem123', 'RIW41MPIVYATJDNRR66A', '100', '100', 'naeem123', 'sdfsafa', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20170101055816', '534534', 'RIW41MPIVYATJDNRR66A', '1200', '2017-01-01', 'dsfgs', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20170101055816', '534534', 'RIW41MPIVYATJDNRR66A', '1200', '2017-01-01', 'dsfgs', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('b0K3NK6B7b104n3', '20170101055816', 'DL1kYjAwEE2QM5S0Xwlb', '12', '100', '1200', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20170101060048', '123456453', 'RIW41MPIVYATJDNRR66A', '8000', '2017-01-01', 'sdfaasfa', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20170101060048', '123456453', 'RIW41MPIVYATJDNRR66A', '8000', '2017-01-01', 'sdfaasfa', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('p8S9WSd6Mb2xLBK', '20170101060048', 'DL1kYjAwEE2QM5S0Xwlb', '12', '100', '1200', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('8uFlO3Q58BnR0Lw', '20170101060048', 'Y0GJLKPLyQ7LGMy1bf7Y', '34', '200', '6800', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('4715377736', 'U4PATC67NYINCUP', '2017-01-01', '0', 1105, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('794612431831596', 'U4PATC67NYINCUP', '4715377736', '2017-01-01', '0', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('589598851818176', '4715377736', 'K77N6sxkB4saSbSaFznz', '34', '0', '45', '45', '0', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5248492575', 'JJ6KNXYN74NA532', '2017-01-01', '1200', 1106, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('137696184697392', 'JJ6KNXYN74NA532', '5248492575', '2017-01-01', '1200', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('4675618621', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1200', 1107, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('249961513469189', 'KSA8YRO3VPCGNGQ', '4675618621', '2017-01-01', '1200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('692577853662948', '4675618621', 'DL1kYjAwEE2QM5S0Xwlb', NULL, '12', '100', '100', '1200', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5688688468', 'K7L8P26NHKA8YBG', '2017-01-01', '2300', 1108, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('844566928247354', 'K7L8P26NHKA8YBG', '5688688468', '2017-01-01', '2300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('568346676818127', '5688688468', 'Y0GJLKPLyQ7LGMy1bf7Y', NULL, '23', '100', '200', '2300', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5237869668', 'KSA8YRO3VPCGNGQ', '2017-01-01', '7700', 1109, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('761761859322888', 'KSA8YRO3VPCGNGQ', '5237869668', '2017-01-01', '7700', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('977975547652121', '5237869668', 'DL1kYjAwEE2QM5S0Xwlb', NULL, '23', '100', '100', '2300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('286461811832939', '5237869668', 'Y0GJLKPLyQ7LGMy1bf7Y', NULL, '54', '100', '200', '5400', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('2645581367', 'OYQ24ZG88HRU3HQ', '2017-01-01', '1200', 1110, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('117163629141399', 'OYQ24ZG88HRU3HQ', '2645581367', '2017-01-01', '1200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('982377237521796', '2645581367', 'DL1kYjAwEE2QM5S0Xwlb', NULL, '12', '100', '100', '1200', 1);
+UPDATE `product_purchase_details` SET `product_id` = 'UMdjtu7B7OPh4PFcD4rl', `quantity` = '1230', `rate` = '123', `total_amount` = '151290'
+WHERE `purchase_detail_id` = 'meNu5BorKFyOOnP';
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20170101063832', 'sdfsadf', 'RIW41MPIVYATJDNRR66A', '27876', '2017-01-01', 'sadfsadfsa', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20170101063832', 'sdfsadf', 'RIW41MPIVYATJDNRR66A', '27876', '2017-01-01', 'sadfsadfsa', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('XHkxdvbKEA72WpE', '20170101063832', 'WPiw4RGT3LpXUj8QogNy', '12', '2323', '27876', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5113142632', 'KSA8YRO3VPCGNGQ', '2017-01-01', '12300', 1111, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('242497499991825', 'KSA8YRO3VPCGNGQ', '5113142632', '2017-01-01', '12300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('428126842664593', '5113142632', 'DL1kYjAwEE2QM5S0Xwlb', '123', '100', '100', '12300', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('7812666445', 'KSA8YRO3VPCGNGQ', '2017-01-01', '12300', 1112, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('234548267568946', 'KSA8YRO3VPCGNGQ', '7812666445', '2017-01-01', '12300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('158142865384768', '7812666445', 'DL1kYjAwEE2QM5S0Xwlb', '123', '100', '100', '12300', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8874383327', 'KSA8YRO3VPCGNGQ', '2017-01-01', '12300', 1113, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('626468387812738', 'KSA8YRO3VPCGNGQ', '8874383327', '2017-01-01', '12300', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('184571371645156', '8874383327', 'DL1kYjAwEE2QM5S0Xwlb', '123', '100', '100', '12300', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('7671885483', 'KSA8YRO3VPCGNGQ', '2017-01-01', '10369', 1114, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('862369784264558', 'KSA8YRO3VPCGNGQ', '7671885483', '2017-01-01', '10369', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('136711716362914', '7671885483', 'Y0GJLKPLyQ7LGMy1bf7Y', '34', '100', '200', '3400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('139998237723752', '7671885483', 'WPiw4RGT3LpXUj8QogNy', '3', '2323', '2323', '6969', 1);
+UPDATE `invoice` SET `customer_id` = 'KSA8YRO3VPCGNGQ', `date` = '2017-01-01 00:00:00', `total_amount` = '24307'
+WHERE `invoice_id` = '7671885483';
+UPDATE `customer_ledger` SET `customer_id` = 'KSA8YRO3VPCGNGQ', `invoice_no` = '7671885483', `date` = '2017-01-01 00:00:00', `amount` = '24307'
+WHERE `invoice_no` = '7671885483';
+UPDATE `invoice_details` SET `invoice_id` = '7671885483', `product_id` = 'Y0GJLKPLyQ7LGMy1bf7Y', `cartoon` = NULL, `quantity` = '34', `rate` = '100', `total_price` = '3400'
+WHERE `invoice_details_id` = '136711716362914';
+UPDATE `invoice_details` SET `invoice_id` = '7671885483', `product_id` = 'WPiw4RGT3LpXUj8QogNy', `cartoon` = NULL, `quantity` = '9', `rate` = '2323', `total_price` = '20907'
+WHERE `invoice_details_id` = '139998237723752';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('6696987235', 'U4PATC67NYINCUP', '2017-01-01', '5440', 1115, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('485865448816859', 'U4PATC67NYINCUP', '6696987235', '2017-01-01', '5440', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('293221945597224', '6696987235', 'Y0GJLKPLyQ7LGMy1bf7Y', '45', '100', '200', '4500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('614643974721949', '6696987235', 'y7rqLaCrS2Kqix994PMq', '4', '235', '235', '940', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1796426857', 'U4PATC67NYINCUP', '2017-01-01', '5440', 1116, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('421198461511314', 'U4PATC67NYINCUP', '1796426857', '2017-01-01', '5440', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('263224249749999', '1796426857', 'Y0GJLKPLyQ7LGMy1bf7Y', '45', '100', '200', '4500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('182542812684266', '1796426857', 'y7rqLaCrS2Kqix994PMq', '4', '235', '235', '940', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('4593781266', 'U4PATC67NYINCUP', '2017-01-01', '5440', 1117, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('644523454826756', 'U4PATC67NYINCUP', '4593781266', '2017-01-01', '5440', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('894615814286538', '4593781266', 'Y0GJLKPLyQ7LGMy1bf7Y', '45', '100', '200', '4500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('476888743833276', '4593781266', 'y7rqLaCrS2Kqix994PMq', '4', '235', '235', '940', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('2646838781', 'U4PATC67NYINCUP', '2017-01-01', '5440', 1118, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('273818457137164', 'U4PATC67NYINCUP', '2646838781', '2017-01-01', '5440', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('515666969872354', '2646838781', 'Y0GJLKPLyQ7LGMy1bf7Y', '45', '100', '200', '4500', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('858654488168592', '2646838781', 'y7rqLaCrS2Kqix994PMq', '4', '235', '235', '940', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('7618188771', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1119, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('139182425443267', 'KSA8YRO3VPCGNGQ', '7618188771', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('829456836866296', '7618188771', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('9432629748', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1120, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('344338484163767', 'KSA8YRO3VPCGNGQ', '9432629748', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('968981112553797', '9432629748', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('3987373493', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1121, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('556568172438971', 'KSA8YRO3VPCGNGQ', '3987373493', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('251768994459423', '3987373493', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1225148883', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1122, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('654922175966374', 'KSA8YRO3VPCGNGQ', '1225148883', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('256429383525487', '1225148883', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('9914797748', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1123, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('918649271852639', 'KSA8YRO3VPCGNGQ', '9914797748', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('316432544715862', '9914797748', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('3957224153', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1124, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('824384637244583', 'KSA8YRO3VPCGNGQ', '3957224153', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('875744935813916', '3957224153', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('3426295493', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1125, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('883256385541119', 'KSA8YRO3VPCGNGQ', '3426295493', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('993327571197447', '3426295493', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5252538589', 'KSA8YRO3VPCGNGQ', '2017-01-01', '1035', 1126, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('172874625577745', 'KSA8YRO3VPCGNGQ', '5252538589', '2017-01-01', '1035', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('641767149731353', '5252538589', 'PCVVHgcJhPnB2r6K5z8R', '45', '23', '23', '1035', 1);
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('aBeUlDfSL3kQZSu', '0', '0', '0', '2017-01-01 13:25:47', '0', '', 1);
+UPDATE `user_login` SET `password` = 'af73d3ee800ae06e9935f915102b1927'
+WHERE `password` = '41d99b369894eb1ec3f461135132d8bb'
+AND `username` = 'test@test.com';
+UPDATE `user_login` SET `password` = '41d99b369894eb1ec3f461135132d8bb'
+WHERE `password` = 'af73d3ee800ae06e9935f915102b1927'
+AND `username` = 'test@test.com';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('6122115262', 'KSA8YRO3VPCGNGQ', '2017-01-01', '200', 1127, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('741545735767788', 'KSA8YRO3VPCGNGQ', '6122115262', '2017-01-01', '200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('321574176514917', '6122115262', 'DL1kYjAwEE2QM5S0Xwlb', '2', '100', '100', '200', 1);
+DELETE FROM `product_purchase`
+WHERE `purchase_id` = '20170101063832';
+DELETE FROM `product_purchase_details`
+WHERE `purchase_id` = '20170101063832';
+INSERT INTO `product_information` (`product_id`, `product_name`, `supplier_id`, `price`, `supplier_price`, `product_model`, `product_details`, `status`) VALUES ('FfR9RIQBfzIw3wvM8sdz', 'naeem123sdfsad', 'TE6UAR3SQWJCLANNOSXE', '1212', '1212', 'new12323', 'sdfsafd', 1);
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '{supplier_id}', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+UPDATE `product_information` SET `product_name` = 'SUNMOON ', `supplier_id` = '{supplier_id}', `price` = '231', `supplier_price` = '231', `product_model` = 'SM-7711', `product_details` = ' BULB', `status` = 1
+WHERE `product_id` = 'bPxrPHdBYavM1lZLk7il';
+DELETE FROM `product_information`
+WHERE `product_id` = 'FfR9RIQBfzIw3wvM8sdz';
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('LQ2F6STL7SYCPW6MBWVZ', 'sourav', 'Dhaka', '0191856363', 'Product', 1);
+UPDATE `supplier_information` SET `supplier_name` = 'sourav', `address` = 'Dhaka', `mobile` = '0191856363', `details` = 'Product'
+WHERE `supplier_id` = 'LQ2F6STL7SYCPW6MBWVZ';
+DELETE FROM `supplier_information`
+WHERE `supplier_id` = 'LQ2F6STL7SYCPW6MBWVZ';

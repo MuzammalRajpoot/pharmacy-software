@@ -1,0 +1,97 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('ZIV9T3XLZ2', 'ZE4SBI2VUBZAKZS', '2013-12-16', '24800', 1001, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('tPYsQgJfm1pzgjY', 'ZE4SBI2VUBZAKZS', 'ZIV9T3XLZ2', '2013-12-16', '24800', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('wNhU9TF3dNDE3dy', 'ZIV9T3XLZ2', 'WvapHkx3dMpXG9fPQuRG', '2', '40', '360', '220', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('WSYKrUoejBfm7Bn', 'ZIV9T3XLZ2', 'DlnY6FwMTy7FpQPOtYQT', '1', '40', '260', '255', '10400', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('GSSJJA3GD7Q5K74', 'ZE4SBI2VUBZAKZS', NULL, '6JOKFU1G1I', '1000', 'cash', '1', '', '2013-12-16', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('GSSJJA3GD7Q5K74', 'ZE4SBI2VUBZAKZS', '1', '2013-12-16', '1000', 'cash', 0);
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('S2H4X7RX9A', 'NCC bank Ltd', 1);
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('GE78A3MKXY', 'Duch Banla Bank Ltd', 1);
+UPDATE `product_purchase_details` SET `product_id` = 'WvapHkx3dMpXG9fPQuRG', `quantity` = '4400', `rate` = '340', `total_amount` = '1496000' WHERE `purchase_detail_id` =  'o7r3tOxZCAclpej';
+UPDATE `product_purchase_details` SET `product_id` = 'DlnY6FwMTy7FpQPOtYQT', `quantity` = '2200', `rate` = '255', `total_amount` = '561000' WHERE `purchase_detail_id` =  'aNYbVu66S4yXxsR';
+UPDATE `product_purchase_details` SET `product_id` = 'yGiAxqXFv5xPTeL7mnW', `quantity` = '2000', `rate` = '340', `total_amount` = '680000' WHERE `purchase_detail_id` =  'mx1DBvTVZoz1H8X';
+UPDATE `product_purchase_details` SET `product_id` = 'HLGrQIDBWCQq1B5gsqt3', `quantity` = '360', `rate` = '505', `total_amount` = '181800' WHERE `purchase_detail_id` =  'xBnk7bJicOd2FsF';
+UPDATE `product_purchase_details` SET `product_id` = 'PG80U1kSMLaWEWULcFlO', `quantity` = '1250', `rate` = '545', `total_amount` = '681250' WHERE `purchase_detail_id` =  'mCv7aCsgTSYw0hJ';
+UPDATE `product_purchase_details` SET `product_id` = 'diIcsgPTRLw1vRFbPABF', `quantity` = '1200', `rate` = '315', `total_amount` = '378000' WHERE `purchase_detail_id` =  'Ld02sTWy1t24hMM';
+UPDATE `product_purchase_details` SET `product_id` = 'D5y1CZcHzsv3eBiDmDLI', `quantity` = '1200', `rate` = '265', `total_amount` = '318000' WHERE `purchase_detail_id` =  'bP4pR8W4wJsIuvh';
+UPDATE `product_purchase_details` SET `product_id` = 'VDeFLsyYUQA0RaYYNZ2g', `quantity` = '0', `rate` = '105', `total_amount` = '0' WHERE `purchase_detail_id` =  'HjR6DDqeojZSI8c';
+UPDATE `product_purchase_details` SET `product_id` = 'VF4RFtk8JqamlJPNA1ZL', `quantity` = '6000', `rate` = '100', `total_amount` = '600000' WHERE `purchase_detail_id` =  '8OhRiKL2qnMoc2e';
+UPDATE `product_purchase_details` SET `product_id` = 'ZF7l6zPBsB4AvQj4gmgf', `quantity` = '400', `rate` = '545', `total_amount` = '218000' WHERE `purchase_detail_id` =  'ncjTQv0ng0zr2OS';
+UPDATE `product_purchase_details` SET `product_id` = 'fAtioVkviBywx1uEe0Ol', `quantity` = '0', `rate` = '645', `total_amount` = '0' WHERE `purchase_detail_id` =  'XQDHANkhbnYOBCk';
+UPDATE `product_purchase_details` SET `product_id` = 'OKm3FmtyqD75FqEI5Pd8', `quantity` = '1300', `rate` = '345', `total_amount` = '448500' WHERE `purchase_detail_id` =  'clXu4fH0xlO32NL';
+UPDATE `product_purchase_details` SET `product_id` = 'O70Voe9tRGPIqhLA88kU', `quantity` = '1800', `rate` = '425', `total_amount` = '765000' WHERE `purchase_detail_id` =  'hVK7h4209wFRcsM';
+UPDATE `product_purchase_details` SET `product_id` = '9scMjmk1S7oulv1veq4P', `quantity` = '900', `rate` = '420', `total_amount` = '378000' WHERE `purchase_detail_id` =  'SE6F0ZGCzje6yIx';
+UPDATE `product_purchase_details` SET `product_id` = 'YxBCSs7coe3XcuhHKkJi', `quantity` = '2000', `rate` = '280', `total_amount` = '560000' WHERE `purchase_detail_id` =  'FXMOTfYhEov5Gy5';
+UPDATE `product_purchase_details` SET `product_id` = 'ujbAqymV55Z168BaqhKY', `quantity` = '1500', `rate` = '275', `total_amount` = '412500' WHERE `purchase_detail_id` =  'Ewa7Q8dcL8bhDnQ';
+UPDATE `product_purchase_details` SET `product_id` = 'ptFmzKeZo6knFkHnmPRP', `quantity` = '3600', `rate` = '275', `total_amount` = '990000' WHERE `purchase_detail_id` =  'wkVbRA46mCpL55f';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('R5O9ZYSKOY', '1EAHG4XEDE9MY57', '2013-12-16', '14400', 1002, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('gKZQCUHgEcvuV6y', '1EAHG4XEDE9MY57', 'R5O9ZYSKOY', '2013-12-16', '14400', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('DCjPA6tfsLRkxjg', 'R5O9ZYSKOY', 'WvapHkx3dMpXG9fPQuRG', '2', '40', '360', '220', '14400', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('7SQUI1BA3G', '2S61IQW594ZU8J5', '2013-12-16', '7200', 1003, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('Cb36B8CIMYVvTHN', '2S61IQW594ZU8J5', '7SQUI1BA3G', '2013-12-16', '7200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('5k7nIrOGj4zjx3E', '7SQUI1BA3G', 'WvapHkx3dMpXG9fPQuRG', '1', '20', '360', '220', '7200', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('OQIQCGBVUN', 'Jaymeal Receipt', 'inflow_24NVL8769P', '2');
+CREATE TABLE IF NOT EXISTS inflow_24NVL8769P (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('4U2M79OO9D', 'Cash Sell Payment', 'inflow_55D3Z9Q7B8', '2');
+CREATE TABLE IF NOT EXISTS inflow_55D3Z9Q7B8 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('7HN6YT3QU4ZBTF7', 'Others', '', '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('WPJ2YGMFGM', '7HN6YT3QU4ZBTF7', 'NA', NULL, '0', 'Previous adjustment with software', 'NA', 'NA', '2013-12-16', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('OTKICM2EGG', '7HN6YT3QU4ZBTF7', '2013-12-16', '7200', 1004, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('dP31YR2yFQozhw0', '7HN6YT3QU4ZBTF7', 'OTKICM2EGG', '2013-12-16', '7200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('OM6G4DSqHj99xrk', 'OTKICM2EGG', 'WvapHkx3dMpXG9fPQuRG', '1', '20', '360', '220', '7200', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('AKADLQTBVB', 'Jaymeal Provider', 'outflow_YH7GBJGM1J', '1');
+CREATE TABLE IF NOT EXISTS outflow_YH7GBJGM1J (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('ic6glsmSNXhqiRn', 'Mr Jamal', NULL, '7ksOxBVO9S', '9000', 'hsjdfgnb fhjs', '1', '', '2013-12-16', 0);
+INSERT INTO `outflow_YH7GBJGM1J` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('ic6glsmSNXhqiRn', 'Mr Jamal', '1', '2013-12-16', '9000', 'hsjdfgnb fhjs', 0);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('NI8RX2OP74U99M9', 'Mr Jamal', NULL, 'KM1MI7X2D6', '5000', 'jghj nvbjvbj', '1', '', '2013-12-16', 0);
+INSERT INTO `inflow_24NVL8769P` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('NI8RX2OP74U99M9', 'Mr Jamal', '1', '2013-12-16', '5000', 'jghj nvbjvbj', 0);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('IQ1WQ975UJ', 'Cheque Clear', 'inflow_3G73FMMTZ7', '2');
+CREATE TABLE IF NOT EXISTS inflow_3G73FMMTZ7 (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('BCKMGKT59J7Q8BP', 'ZE4SBI2VUBZAKZS', NULL, 'SQP6H2T8IW', '500', 'igjhocfgij', '1', '', '2013-12-16', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('BCKMGKT59J7Q8BP', 'ZE4SBI2VUBZAKZS', '1', '2013-12-16', '500', 'igjhocfgij', 0);
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('Z8UDI4SFROIH', 'OQZZIRCC55RE2YJ', '2S61IQW594ZU8J5', 'GFGHF64563', 'r6545ye4ru6efthed', '2013-12-16', 'inflow', 0, '800', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('OQZZIRCC55RE2YJ', '2S61IQW594ZU8J5', NULL, 'YA3VAKOG21', '800', 'xgdfg', '2', 'r6545ye4ru6efthed', '2013-12-16', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('OQZZIRCC55RE2YJ', '2S61IQW594ZU8J5', '2', '2013-12-16', '800', 'xgdfg', 0);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('Z49KZNWUSW8KG81', 'Cheque Clear', NULL, '8CI5118OWA', '800', 'kxdfghmxkl', '1', '', '2013-12-16', 0);
+INSERT INTO `inflow_3G73FMMTZ7` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('Z49KZNWUSW8KG81', 'Cheque Clear', '1', '2013-12-16', '800', 'kxdfghmxkl', 0);
+INSERT INTO `cheque_manger` (`cheque_id`, `transection_id`, `customer_id`, `bank_id`, `cheque_no`, `date`, `transection_type`, `cheque_status`, `amount`, `status`) VALUES ('9ORN6KKZ11B2', 'G9IPZFNQQO1R9P3', 'ZE4SBI2VUBZAKZS', 'GFGHF64563', '8768969675876', '2013-12-15', 'inflow', 0, '100', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('G9IPZFNQQO1R9P3', 'ZE4SBI2VUBZAKZS', NULL, '3F2QC9ZXTP', '100', 'hjcvg', '2', '8768969675876', '2013-12-16', 0);
+INSERT INTO `inflow_M7V43H4CWJ` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('G9IPZFNQQO1R9P3', 'ZE4SBI2VUBZAKZS', '2', '2013-12-16', '100', 'hjcvg', 0);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('X89TMF53X19WZVJ', 'cheque rec', NULL, 'PNP5RI1358', '100', 'jghg', '1', '', '2013-12-16', 0);
+INSERT INTO `inflow_3G73FMMTZ7` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('X89TMF53X19WZVJ', 'cheque rec', '1', '2013-12-16', '100', 'jghg', 0);

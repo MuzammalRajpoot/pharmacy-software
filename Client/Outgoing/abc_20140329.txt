@@ -1,0 +1,24 @@
+
+UPDATE `invoice` SET `customer_id` = 'VFW5XDWZ3T5LU42', `date` = '2014-03-21 00:00:00', `total_amount` = '186300' WHERE `invoice_id` =  '3941358597';
+UPDATE `customer_ledger` SET `customer_id` = 'VFW5XDWZ3T5LU42', `invoice_no` = '3941358597', `date` = '2014-03-21 00:00:00', `amount` = '186300' WHERE `invoice_no` =  '3941358597';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = '1vc83WSaTfVQxT08E2C6', `cartoon` = '1', `quantity` = '20', `rate` = '360', `total_price` = '7200' WHERE `invoice_details_id` =  '255743137162821';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = 'KLwiY76Nh3JAGZ3wGIo8', `cartoon` = '2', `quantity` = '100', `rate` = '303', `total_price` = '30300' WHERE `invoice_details_id` =  '538268295647346';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = 'JFYq42KFuWrfJ4EZRaF8', `cartoon` = '10', `quantity` = '200', `rate` = '172', `total_price` = '34400' WHERE `invoice_details_id` =  '562935348945126';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = 'mkKQlRclxZcIAk4Yfxap', `cartoon` = '4', `quantity` = '80', `rate` = '215', `total_price` = '17200' WHERE `invoice_details_id` =  '278185814478193';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = 'qgb80qiBHj28MlaeXvi9', `cartoon` = '5', `quantity` = '300', `rate` = '218', `total_price` = '65400' WHERE `invoice_details_id` =  '748842465258751';
+UPDATE `invoice_details` SET `invoice_id` = '3941358597', `product_id` = 'lIY9ziM1vaO4VeRtnbjN', `cartoon` = '3', `quantity` = '120', `rate` = '265', `total_price` = '31800' WHERE `invoice_details_id` =  '377276666993713';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('8429426528', 'YHJJK4UF96VAYM4', '2014-03-29', '20640', 1010, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('521188317329766', 'YHJJK4UF96VAYM4', '8429426528', '2014-03-29', '20640', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('172555486427979', '8429426528', 'JFYq42KFuWrfJ4EZRaF8', '2', '120', '172', '170', '20640', 1);
+UPDATE `invoice` SET `customer_id` = 'YHJJK4UF96VAYM4', `date` = '2014-03-29 00:00:00', `total_amount` = '10320' WHERE `invoice_id` =  '8429426528';
+UPDATE `customer_ledger` SET `customer_id` = 'YHJJK4UF96VAYM4', `invoice_no` = '8429426528', `date` = '2014-03-29 00:00:00', `amount` = '10320' WHERE `invoice_no` =  '8429426528';
+UPDATE `invoice_details` SET `invoice_id` = '8429426528', `product_id` = 'JFYq42KFuWrfJ4EZRaF8', `cartoon` = '1', `quantity` = '60', `rate` = '172', `total_price` = '10320' WHERE `invoice_details_id` =  '172555486427979';
+UPDATE `invoice` SET `customer_id` = 'YHJJK4UF96VAYM4', `date` = '2014-03-29 00:00:00', `total_amount` = '30960' WHERE `invoice_id` =  '8429426528';
+UPDATE `customer_ledger` SET `customer_id` = 'YHJJK4UF96VAYM4', `invoice_no` = '8429426528', `date` = '2014-03-29 00:00:00', `amount` = '30960' WHERE `invoice_no` =  '8429426528';
+UPDATE `invoice_details` SET `invoice_id` = '8429426528', `product_id` = 'JFYq42KFuWrfJ4EZRaF8', `cartoon` = '3', `quantity` = '180', `rate` = '172', `total_price` = '30960' WHERE `invoice_details_id` =  '172555486427979';
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1194217394', 'D4QWEJB44Q5I5UY', '2014-03-29', '36000', 1011, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('977684523364814', 'D4QWEJB44Q5I5UY', '1194217394', '2014-03-29', '36000', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('233655665175715', '1194217394', '1vc83WSaTfVQxT08E2C6', '5', '100', '360', '350', '36000', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('1364583335', 'VFW5XDWZ3T5LU42', '2014-03-29', '14200', 1012, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('293874549788114', 'VFW5XDWZ3T5LU42', '1364583335', '2014-03-29', '14200', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('726119146584827', '1364583335', '5vlChQkssxisySfT6yxS', '2', '40', '355', '350', '14200', 1);

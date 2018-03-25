@@ -1,0 +1,3 @@
+
+UPDATE `customer_information` SET `customer_name` = 'Afsar Hossain', `customer_address` = 'Test', `customer_mobile` = '017124565651', `customer_email` = 'afsarhossain@gamil.com' WHERE `customer_id` =  '2gPnnJ6b2ywUYcb';
+UPDATE `customer_information` SET `customer_name` = 'Afsar Hossain', `customer_address` = 'Test', `customer_mobile` = '017124565651', `customer_email` = 'afsarhossain@gamil.com' WHERE `customer_id` =  '2gPnnJ6b2ywUYcb';

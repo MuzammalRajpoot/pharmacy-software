@@ -1,0 +1,8 @@
+
+INSERT INTO `supplier_information` (`supplier_id`, `supplier_name`, `address`, `mobile`, `details`, `status`) VALUES ('P8epwZb6zi90Y0yN6yJY', 'Test Supplier', 'emlre', '021654546', 'lrkjglsr', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131113200142', '34t34jkk', 'oZnATJMxaPl6mDReIZN', '378000', '2013-11-13', 'no', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('mxirDmvO388qphe', '20131113200142', 'McDxTxDDw1c6HSo4eYb6', '180', '2100', '378000', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131113201713', 'galsdjg452345', 'GrpzzgpJSVumkTuMRQBZ', '396240', '2013-11-13', 'sk', 1);
+INSERT INTO `product_purchase` (`purchase_id`, `chalan_no`, `supplier_id`, `grand_total_amount`, `purchase_date`, `purchase_details`, `status`) VALUES ('20131113201828', 'galsdjg452345lk', 'GrpzzgpJSVumkTuMRQBZ', '396240', '2013-11-13', 'sk', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `chalan_no`, `supplier_id`, `amount`, `date`, `description`, `status`) VALUES ('20131113201828', 'galsdjg452345lk', 'GrpzzgpJSVumkTuMRQBZ', '396240', '2013-11-13', 'sk', 1);
+INSERT INTO `product_purchase_details` (`purchase_detail_id`, `purchase_id`, `product_id`, `quantity`, `rate`, `total_amount`, `status`) VALUES ('Xls6Pcune972iQg', '20131113201828', 'mIgciPBHV8tjDffwVlpN', '156', '2540', '396240', 1);

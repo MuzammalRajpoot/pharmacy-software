@@ -1,0 +1,14 @@
+
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('5226858247', 'UEV2GQ9CWSN6RVN', '2014-02-14', '15150', 1002, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('369943477879295', 'UEV2GQ9CWSN6RVN', '5226858247', '2014-02-14', '15150', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('291846368944767', '5226858247', '2hA7StVg0mZwAChyvgaH', '1', '50', '303', '300', '15150', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('EDUEXEK6LDC5881', 'UEV2GQ9CWSN6RVN', 'OKNTZRGWRY', '2014-02-14', '12000', 1, 'ITP', 1);
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('E6C52M7SS4R7WMG', 0, 0, '', '', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('W8XXBU3N84', 'E6C52M7SS4R7WMG', 'NA', NULL, 0, 'Previous adjustment with software', 'NA', 'NA', '2014-02-14', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('2341728477', 'E6C52M7SS4R7WMG', 0, 0, 1003, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('216683774658513', 'E6C52M7SS4R7WMG', '2341728477', 0, 0, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `receipt_no`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('PHHJBQAEKAVT897', 'UEV2GQ9CWSN6RVN', 'WPK38381KV', '2014-02-14', '2000', 1, 'ITP', 1);
+INSERT INTO `inflow_92mizdldrv` (`transection_id`, `tracing_id`, `date`, `amount`, `payment_type`, `description`, `status`) VALUES ('I5TQLV7U3GTJH1U', 'UEV2GQ9CWSN6RVN', '2014-02-14', '2000', 1, 'ITP', 1);
+INSERT INTO `invoice` (`invoice_id`, `customer_id`, `date`, `total_amount`, `invoice`, `status`) VALUES ('2856561259', 'UEV2GQ9CWSN6RVN', '2014-02-14', '15150', 1004, 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `date`, `amount`, `status`) VALUES ('232232874673655', 'UEV2GQ9CWSN6RVN', '2856561259', '2014-02-14', '15150', 1);
+INSERT INTO `invoice_details` (`invoice_details_id`, `invoice_id`, `product_id`, `cartoon`, `quantity`, `rate`, `supplier_rate`, `total_price`, `status`) VALUES ('274827423239556', '2856561259', '2hA7StVg0mZwAChyvgaH', '1', '50', '303', '300', '15150', 1);

@@ -1,0 +1,14 @@
+
+INSERT INTO `bank_add` (`bank_id`, `bank_name`, `status`) VALUES ('XTDAEPLU72', '', 1);
+INSERT INTO `accounts` (`account_id`, `account_name`, `account_table_name`, `status`) VALUES ('CET6R3W4QW', '', 'outflow_JI33ALBM4U', '1');
+CREATE TABLE IF NOT EXISTS outflow_JI33ALBM4U (
+			`transection_id` varchar(200) NOT NULL,
+			`tracing_id` varchar(200) NOT NULL,
+			`payment_type` varchar(10) NOT NULL,
+			`date` datetime NOT NULL,
+			`amount` int(10) NOT NULL,
+			`description` varchar(255) NOT NULL,
+			`status` int(5) NOT NULL,
+			 PRIMARY KEY (`transection_id`)
+		) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `daily_closing` (`closing_id`, `last_day_closing`, `cash_in`, `cash_out`, `date`, `amount`, `adjustment`, `status`) VALUES ('9gWfX6waPMM1i9X', '', '0', '0', '2016-12-24 13:09:44', '0', '', 1);

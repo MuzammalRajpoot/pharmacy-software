@@ -1,0 +1,3 @@
+
+INSERT INTO `customer_information` (`customer_id`, `customer_name`, `customer_address`, `customer_mobile`, `customer_email`, `status`) VALUES ('F3DJBSLJKNIU9RZ', 'New1212121', 'sdgsdgs', '5464564', 'new@dsfsf.com', 1);
+INSERT INTO `customer_ledger` (`transaction_id`, `customer_id`, `invoice_no`, `receipt_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('DZXDMVEILG', 'F3DJBSLJKNIU9RZ', 'NA', NULL, '534534', 'Previous adjustment with software', 'NA', 'NA', '2017-01-03', 1);

@@ -1,0 +1,5 @@
+
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('wl7Fsr21oAiEBTs', 'GrpzzgpJSVumkTuMRQBZ', NULL, 'mc3qdO0l40', '6000', 'dd', '1', '', '2013-11-25', 1);
+INSERT INTO `outflow_8B4tqNeXkH` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('wl7Fsr21oAiEBTs', 'GrpzzgpJSVumkTuMRQBZ', '1', '2013-11-25', '6000', 'dd', 1);
+INSERT INTO `supplier_ledger` (`transaction_id`, `supplier_id`, `chalan_no`, `deposit_no`, `amount`, `description`, `payment_type`, `cheque_no`, `date`, `status`) VALUES ('XYyIofmpFi0gHRE', 'Abdul', NULL, 'u74YUaHY3r', '9000', 'nbj', '2', '64745675465', '2013-11-25', 1);
+INSERT INTO `outflow_W9f6oSF4fY` (`transection_id`, `tracing_id`, `payment_type`, `date`, `amount`, `description`, `status`) VALUES ('XYyIofmpFi0gHRE', 'Abdul', '2', '2013-11-25', '9000', 'nbj', 1);
